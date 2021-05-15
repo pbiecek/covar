@@ -103,7 +103,7 @@ main {
 }
 .map-view__content {
     display: flex;
-    justify-content: space-between;
+/*    justify-content: space-between; */
 }
 .map-view__map {
     padding: 20px;
