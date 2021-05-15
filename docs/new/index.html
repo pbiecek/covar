@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles-2.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa RT-COVAR</title>
+</head>
+<body>
+    <header>
+        <div class="header-block">
+            <h1>
+                Mapa RT<span class="text-orange">-</span>COVAR
+            </h1>
+            <h2>
+                monitor wariantów i mutacji SARS-COV-2
+            </h2>
+        </div>
+        <nav>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Warianty w Polsce
+                    
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a>VOHC</a></li>
+                    <li><a>VOC</a></li>
+                    <li><a>VOI</a></li>
+                    <li><a>Mutacje</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Warianty w Europie
+                    
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a>VOHC</a></li>
+                    <li><a>VOC</a></li>
+                    <li><a>VOI</a></li>
+                    <li><a>Mutacje</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Specjlistyczne raporty</h3>
+                <ul class="nav-block__menu">
+                    <li><a>Koinfekcje</a></li>
+                    <li><a>Wykrycia zagraniczne</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold"><a>info</a></h3>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="map-view__header">
+                <div class="map-view__title-section">
+                    <h2 class="map-view__title">Monitoring wariantów SARS-COV-2 w Polsce</h2>
+                </div>
+                <div class="map-view__scale">
+                    <span class="map-view__scale-text">skala:</span>
+                    <span class="map-view__scale-circle--big">250
+                        <span class="map-view__scale-circle--small">100</span>
+                    </span>
+                </div>
+            </div>
+            <div class="map-view__content">
+                <div class="map-view__filters">
+                    <h4 class="map-view__filters-title">W minionym miesiącu zarejestrowano</h4>
+                    <div class="info-panels__group">
+                        <div class="info-panels__pane">
+                            <h4 class="info-panels__main --yellow">341</h4>
+                            <p class="info-panels__subtitle">przypadków wariantów <span class="--yellow">dzikich</span></p>
+                        </div>
+                        <div class="info-panels__pane">
+                            <h4 class="info-panels__main --orange">2890</h4>
+                            <p class="info-panels__subtitle">przypadków wariantów <span class="--orange">alertowych</span></p>
+                        </div>
+                        <div class="info-panels__pane">
+                            <h4 class="info-panels__main --purple">22</h4>
+                            <p class="info-panels__subtitle">przypadków wariantów <span class="--purple">groźnych</span></p>
+                        </div>
+                    </div>
+                    <div class="filter-block">
+                        <div class="filter-block__title-section">
+                            <h5 class="filter-block__title">Warianty
+                                <div class="help-mark">
+                                    i
+                                    <div class="help-mark__popup">
+                                        Help help help
+                                    </div>
+                                </div>
+                            </h5>
+                            <ul class="filter-block__list">
+                                <li>
+                                    <label class="custom-checkbox">Brytyjska
+                                        <input type="checkbox" checked="checked">
+                                        <span class="custom-checkbox__checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom-checkbox">Południowoafrykańska
+                                        <input type="checkbox" checked="checked">
+                                        <span class="custom-checkbox__checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom-checkbox">Indyjska
+                                        <input type="checkbox" checked="checked">
+                                        <span class="custom-checkbox__checkmark"></span>
+                                    </label>
+                                </li>
+                                <li>
+                                    <label class="custom-checkbox">Dzika
+                                        <input type="checkbox" checked="checked">
+                                        <span class="custom-checkbox__checkmark"></span>
+                                    </label>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="map-view__map">
+                    <img width="700" src="images/mapa.svg">
+                </div>
+            </div>
+        </div>
+        <div class="map-view__footer">
+            <h4 class="map-view__footer-title">
+                Zmiana sytuacji w czasie<div class="help-mark">
+                    i
+                    <div class="help-mark__popup">
+                        Help help help
+                    </div>
+                </div>
+            </h4>
+            <div class="timeline">
+                <div class="timeline__line">
+                    <div class="timeline__marker">
+
+                    </div>
+                    <span class=timline__date>
+                        15 maja
+                    </span>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
