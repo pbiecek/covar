@@ -67,81 +67,30 @@
         <div>
             <div class="map-view__header">
                 <div class="map-view__title-section">
-                    <h2 class="map-view__title">Monitoring wariantów SARS-COV-2 w Polsce</h2>
-                </div>
-                <div class="map-view__scale">
-                    <span class="map-view__scale-text">skala:</span>
-                    <span class="map-view__scale-circle--big">250
-                        <span class="map-view__scale-circle--small">50</span>
-                    </span>
+                    <h2 class="map-view__title">Variants of Concern (VoC)</h2>
                 </div>
             </div>
             <div class="map-view__content">
                 <div class="map-view__filters">
-                    <h4 class="map-view__filters-title">W minionym miesiącu zarejestrowano</h4>
-                    <div class="info-panels__group">
-                        <div class="info-panels__pane">
-                            <h4 class="info-panels__main --yellow">19</h4>
-                            <p class="info-panels__subtitle">przypadków wariantów <span class="--yellow">dzikich</span></p>
-                        </div>
-                        <div class="info-panels__pane">
-                            <h4 class="info-panels__main --orange">730</h4>
-                            <p class="info-panels__subtitle">przypadków wariantów <span class="--orange">alertowych</span></p>
-                        </div>
-                        <div class="info-panels__pane">
-                            <h4 class="info-panels__main --purple">6</h4>
-                            <p class="info-panels__subtitle">przypadków wariantów <span class="--purple">szczególnego nadzoru</span></p>
-                        </div>
-                    </div>
-                    <div class="filter-block">
-                        <div class="filter-block__title-section">
-                            <h5 class="filter-block__title">Warianty
-                                <div class="help-mark">
-                                    i
-                                    <div class="help-mark__popup">
-                                        Help help help
-                                    </div>
-                                </div>
-                            </h5>
-                            <ul class="filter-block__list">
-                                <li>
-                                    <label class="custom-checkbox"><a href="index.html">Wszystkie</a>
-                                        <input type="checkbox" checked="checked">
-                                        <span class="custom-checkbox__checkmark"></span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="custom-checkbox"><a href="indexBrytyjski.html">Brytyjski</a>
-                                        <input type="checkbox">
-                                        <span class="custom-checkbox__checkmark"></span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="custom-checkbox"><a href="indexAfrykanski.html">Południowoafrykański</a>
-                                        <input type="checkbox">
-                                        <span class="custom-checkbox__checkmark"></span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="custom-checkbox"><a href="indexIndyjski.html">Indyjski</a>
-                                        <input type="checkbox">
-                                        <span class="custom-checkbox__checkmark"></span>
-                                    </label>
-                                </li>
-                                <li>
-                                    <label class="custom-checkbox"><a href="indexDziki.html">Dziki</a>
-                                        <input type="checkbox">
-                                        <span class="custom-checkbox__checkmark"></span>
-                                    </label>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+<br/>
+<p>Zgodnie z nomenklaturą <a href="https://www.ecdc.europa.eu/en/covid-19/variants-concern">ECDC</a> tą nazwą określa się warianty, co do których dostępne są wyraźne dowody wskazujące na znaczący wpływ na zdolność przenoszenia się, dotkliwość choroby lub odporność, które prawdopodobnie będą miały wpływ na sytuację epidemiologiczną w UE/EOG.</p>
+<p >Obecnie dla SARS-COV-2 zdefiniowano następujące VoC:<br/><br/>
+  <a href="https://en.wikipedia.org/wiki/Lineage_B.1.617.2">B.1.617.2</a> (indyjski). Kluczowe mutacje: L452R, T478K, D614G.<br/><br/>
+  <a href="https://en.wikipedia.org/wiki/Lineage_B.1.1.7">B.1.1.7</a> (brytyjski). Kluczowe mutacje: N501Y, D614G. Dostępne są dowody na zwiększoną zakaźność i dotkliwość. Dominujący wariant w Europie.<br/><br/>
+  <a href="https://en.wikipedia.org/wiki/Lineage_B.1.1.7">B.1.1.7 + E484K</a> (brytyjski). Kluczowe mutacje: E484K, N501Y, D614G. Dostępne są dowody na zwiększoną zakaźność i dotkliwość. <br/><br/>
+  <a href="https://en.wikipedia.org/wiki/Lineage_P.1">P.1</a> (brazylijski). Kluczowe mutacje: K417N, E484K, N501Y, D614G. Dostępne są dowody na zwiększoną zakaźność i dotkliwość. <br/><br/>
+  <a href="https://en.wikipedia.org/wiki/Lineage_B.1.351">B.1.351</a> (południowo afrykański). Kluczowe mutacje: K417T, E484K, N501Y, D614G. Dostępne są dowody na zwiększoną zakaźność i dotkliwość. 
+</p>
                 </div>
-                <div class="map-view__map" style="padding-left:50px; padding-top: 50px">
-                <div style="background-image: url('images/mapa.svg'); background-repeat: no-repeat; padding:0px">
-                    <svg width="655" height="610" id = "mapa-covar"></svg>
-                </div>
+                <div class="map-view__map" style="padding-left:50px; padding-top: 0px">
+Liczba wystąpień wariantu indyjskiego <a href="https://en.wikipedia.org/wiki/Lineage_B.1.617">B.1.617.2</a><br/>
+    <img width="700px" src="grafika/voc_B_1_617.svg"><br/>
+Liczba wystąpień wariantu brytyjskiego <a href="https://en.wikipedia.org/wiki/Lineage_B.1.1.7">B.1.1.7</a><br/>
+    <img width="700px" src="grafika/voc_B_1_1_7.png"><br/>
+Liczba wystąpień wariantu brazylijskiego <a href="https://en.wikipedia.org/wiki/Lineage_P.1">P.1</a><br/>
+    <img width="700px" src="grafika/voc_P_1.png"><br/>
+Liczba wystąpień wariantu południowoafrykańskiego <a href="https://en.wikipedia.org/wiki/Lineage_B.1.351">B.1.351</a><br/>
+    <img width="700px" src="grafika/voc_B_1_351.png">
                 </div>
             </div>
         </div>

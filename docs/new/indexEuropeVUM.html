@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">  
+    <script src="https://d3js.org/d3.v4.min.js"></script>    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa RT-COVAR</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5650686-7', 'biecek.pl');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    <header>
+        <div class="header-block">
+            <h1>
+                Mapa RT<span class="text-orange">-</span>COVAR
+            </h1>
+            <h2>
+                monitor wariantów i mutacji SARS-COV-2
+            </h2>
+        </div>
+        <nav>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Warianty w Polsce
+                    
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexPolandVOC.html">VOC</a></li>
+                    <li><a href="indexPolandWojewodztwa.html">Województwa</a></li>
+                    <li><a href="indexPolandWiek.html">Wiek</a></li>
+                    <li><a href="indexPolandMutacje.html">Mutacje</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Warianty w Europie
+                    
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexEuropeVOHC.html">VOHC</a></li>
+                    <li><a href="indexEuropeVOC.html">VOC</a></li>
+                    <li><a href="indexEuropeVOI.html">VOI</a></li>
+                    <li><a href="indexEuropeVUM.html">VUM</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Specjlistyczne raporty</h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexKoinf.html">Koinfekcje</a></li>
+                    <li><a href="indexWykryc.html">Wykrycia zagraniczne</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold"><a>O Mapie</a></h3>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div>
+            <div class="map-view__header">
+                <div class="map-view__title-section">
+                    <h2 class="map-view__title">Variants under monitoring (VUM)</h2>
+                </div>
+            </div>
+            <div class="map-view__content">
+                <div class="map-view__filters">
+<br/>
+<p>Zgodnie z nomenklaturą <a href="https://www.ecdc.europa.eu/en/covid-19/variants-concern">ECDC</a> tą nazwą określa się warianty, wykryte poprzez wywiad epidemiologiczny, oparte na regułach przesiewania wariantów genomowych lub wstępne dowody naukowe. Istnieją pewne przesłanki wskazujące, że mogą one mieć właściwości podobne do właściwości VOC, ale dowody są słabe lub nie zostały jeszcze ocenione przez ECDC. Wymienione tu warianty muszą być obecne w co najmniej jednym ognisku, wykryte w społeczności w UE/EOG lub muszą istnieć dowody na to, że wariant ten jest przenoszony przez społeczność w innym miejscu na świecie.</p>
+<p >Obecnie dla SARS-COV-2 zdefiniowano następujące Vum:
+<br><br>
+<a>B.1.214.2</a>. Kluczowe mutacje:
+Q414K, N450K, ins214TDR, D614G.
+<a ><br><br>
+A.23.1+E484K</a>. Kluczowe mutacje:
+E484K, Q613H.
+<a ><br><br>
+A.27</a>. Kluczowe mutacje:
+L452R, N501Y, H655Y.
+<a ><br><br>
+A.28</a>. Kluczowe mutacje:
+E484K, N501T, H655Y.
+<a ><br><br>
+C.16</a>. Kluczowe mutacje:
+L452R, D614G.
+<a ><br><br>
+C.37</a>. Kluczowe mutacje:
+L452Q, F490S, D614G.
+<a ><br><br>
+B.1.351+P384L</a>. Kluczowe mutacje:
+P384L, K417N, E484K, N501Y, D614G.
+<a ><br><br>
+B.1.351+E516Q</a>. Kluczowe mutacje:
+K417N, E484K, N501Y, E516Q, D614G.
+<a ><br><br>
+B.1.1.7+L452R</a>. Kluczowe mutacje:
+L452R, N501Y, D614G.
+<a ><br><br>
+C.36+L452R</a>. Kluczowe mutacje:
+L452R, D614G.
+<a ><br><br>
+AT.1</a>. Kluczowe mutacje:
+E484K, D614G.
+<a ><br><br>
+B.1.526</a>. Kluczowe mutacje:
+ E484K, D614G.
+ <a ><br><br>
+B.1.526.1</a>. Kluczowe mutacje:
+L452R, D614G.
+<a ><br><br>
+B.1.526.2</a>. Kluczowe mutacje:
+S477N, D614G.
+<a ><br><br>
+B.1.1.318</a>. Kluczowe mutacje:
+E484K, D614G.
+<a ><br><br>
+P.2</a>. Kluczowe mutacje:
+E484K, D614G.
+</p>
+                </div>
+                <div class="map-view__map" style="padding-left:50px; padding-top: 0px">
+<p >Nie wszystkie te warianty są obecne w Europie w znaczącej liczbie.</p>
+Liczba wystąpień wariantu <a href="https://en.wikipedia.org/wiki/Lineage_P.2">P.2</a><br>
+    <img width="700" src="grafika/voc_P_2.png">
+Liczba wystąpień wariantu <a href="https://en.wikipedia.org/wiki/Lineage_B.1.351">B.1.351</a><br>
+    <img width="700" src="grafika/voc_B_1_351.png">
+Liczba wystąpień wariantu <a href="https://en.wikipedia.org/wiki/Lineage_B.1.526">B.1.526</a><br>
+    <img width="700" src="grafika/voc_B_1_526.png">
+Liczba wystąpień wariantu <a href="https://en.wikipedia.org/wiki/Lineage_B.1.526.1">B.1.526.1</a><br>
+    <img width="700" src="grafika/voc_B_1_526_1.png">
+
+                </div>
+            </div>
+        </div>
+        <div class="map-view__footer">
+            <h4 class="map-view__footer-title">
+                Zmiana sytuacji w czasie<div class="help-mark">
+                    i
+                    <div class="help-mark__popup">
+                        Help help help
+                    </div>
+                </div>
+            </h4>
+            <div class="timeline">
+                <div class="timeline__line">
+                    <div class="timeline__marker">
+
+                    </div>
+                    <span class=timline__date>
+                        15 maja
+                    </span>
+                </div>
+            </div>
+            <h4 class="map-view__footer-title" style="background: #ffffff">
+                <center><img width="800px" src="images/logo.png"></center>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

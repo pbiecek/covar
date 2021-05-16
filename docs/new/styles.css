@@ -25,7 +25,7 @@ header {
 }
 
 main {
-    padding: 50px;
+    padding: 30px;
     min-width: 0;
     flex-shrink: 1;
     flex-direction: column;
@@ -70,8 +70,19 @@ main {
     margin: 10px 0;
     font-size: 16px;
 }
+a {
+    text-decoration: none;
+    color:#110c35;
+  }
+a:hover {
+    text-decoration: underline;
+    color:#110c35;
+  }
+
 .nav-block__menu a {
     cursor: pointer;
+    color: white;
+    text-decoration: none;
 }
 .nav-block__menu a:hover {
     text-decoration: underline;
@@ -120,7 +131,7 @@ main {
     font-size: 34px;
 }
 .map-view__footer {
-    height: 100px;
+    height: 150px;
 }
 .text-highligh--green {
     color: white;
@@ -160,8 +171,17 @@ main {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    text-decoration: none;
   }
-  
+.custom-checkbox a {
+    text-decoration: none;
+    color:#110c35;
+  }
+.custom-checkbox a:hover {
+    text-decoration: underline;
+    color:#110c35;
+  }
+
 .custom-checkbox input {
     position: absolute;
     opacity: 0;
@@ -363,4 +383,141 @@ main {
 }
 .--purple {
     color: #b00064;
+}
+
+
+      .cls-1 {
+        fill: #ebeef2;
+      }
+
+      .cls-2, .cls-24, .cls-25, .cls-26, .cls-5, .cls-9 {
+        fill: none;
+      }
+
+      .cls-2 {
+        stroke: #110c35;
+        stroke-width: 3px;
+      }
+
+      .cls-2, .cls-9 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-12, .cls-14, .cls-16, .cls-22, .cls-23, .cls-3 {
+        fill: #110c35;
+      }
+
+      .cls-27, .cls-29, .cls-30, .cls-31, .cls-4 {
+        fill: #fff;
+      }
+
+      .cls-5 {
+        stroke: #cbccd6;
+      }
+
+      .cls-24, .cls-25, .cls-26, .cls-5 {
+        stroke-linejoin: round;
+      }
+
+      .cls-18, .cls-19, .cls-6 {
+        fill: #ff8f57;
+      }
+
+      .cls-20, .cls-21, .cls-7 {
+        fill: #b00064;
+      }
+
+      .cls-15, .cls-17, .cls-8 {
+        fill: #ffca38;
+      }
+
+      .cls-9 {
+        stroke: #7e7d93;
+        stroke-width: 0.75px;
+      }
+
+      .cls-10 {
+        font-size: 10px;
+      }
+
+      .cls-10, .cls-11 {
+        fill: #7e7d93;
+      }
+
+      .cls-10, .cls-11, .cls-14, .cls-16, .cls-22, .cls-23, .cls-30, .cls-31 {
+        font-family: Barlow-Regular, Barlow;
+      }
+
+      .cls-11, .cls-22 {
+        font-size: 20px;
+      }
+
+      .cls-12, .cls-14, .cls-29, .cls-30 {
+        font-size: 16px;
+      }
+
+      .cls-12, .cls-17, .cls-19, .cls-21, .cls-29 {
+        font-family: Barlow-SemiBold, Barlow;
+        font-weight: 600;
+      }
+
+      .cls-13 {
+        fill: #a9aab9;
+      }
+
+      .cls-15, .cls-18, .cls-20 {
+        font-size: 32px;
+        font-family: Barlow-Medium, Barlow;
+        font-weight: 500;
+      }
+
+      .cls-16 {
+        font-size: 14px;
+      }
+
+      .cls-23 {
+        font-size: 40px;
+      }
+
+      .cls-24 {
+        stroke: #ffca38;
+      }
+
+      .cls-24, .cls-25, .cls-26 {
+        stroke-linecap: round;
+        stroke-width: 2px;
+      }
+
+      .cls-25 {
+        stroke: #ff8f57;
+      }
+
+      .cls-26 {
+        stroke: #b00064;
+      }
+      .cls-36 {
+        stroke: #b00064;
+      }
+
+      .cls-27 {
+        font-size: 12px;
+        font-family: Barlow;
+        font-weight: 400;
+      }
+
+      .cls-28 {
+        fill: #ff9757;
+      }
+
+      .cls-31 {
+        font-size: 18.35px;
+      }
+
+div.tooltipMap {   
+    position: absolute;         
+    text-align: center;         
+    width: 150px;                    
+    height: 90px;                   
+    border: 0px;        
+    pointer-events: none;           
 }

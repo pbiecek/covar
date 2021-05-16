@@ -106,13 +106,13 @@
                             <ul class="filter-block__list">
                                 <li>
                                     <label class="custom-checkbox"><a href="index.html">Wszystkie</a>
-                                        <input type="checkbox" checked="checked">
+                                        <input type="checkbox">
                                         <span class="custom-checkbox__checkmark"></span>
                                     </label>
                                 </li>
                                 <li>
                                     <label class="custom-checkbox"><a href="indexBrytyjski.html">Brytyjski</a>
-                                        <input type="checkbox">
+                                        <input type="checkbox" checked="checked">
                                         <span class="custom-checkbox__checkmark"></span>
                                     </label>
                                 </li>
@@ -192,10 +192,6 @@ var scaleSize = d3.scaleSqrt()
         .attr("class", "tooltipMap")
         .style("opacity", 0);
 
-    var divTooltip2 = d3.select("body").append("div")
-        .attr("class", "tooltipMap")
-        .style("opacity", 0);
-
     var svg = d3.select("#mapa-covar")
 
     svgg = svg.append("g")    
@@ -225,59 +221,10 @@ var scaleSize = d3.scaleSqrt()
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
         .on("mouseout", function(d) {       
-            divTooltip.transition()        
+            div.transition()        
                 .duration(500)      
                 .style("opacity", 0);   
         });
 
-
-    svggD = svg.append("g")    
-    svggD.selectAll("circle")
-       .data(data)
-       .enter()
-       .append("circle")
-       .attr("cx", function(d) {
-                return (scaleDlugosc(d.StacjaDlugosc));
-       })
-       .attr("cy", function(d) {
-                return (scaleSzerokosc(d.StacjaSzerokosc));
-       })
-       .attr("r", function(d) {
-                return (scaleSize(d.Dziki));
-       })
-       .attr("fill", "#ffca38")
-       .attr("opacity", 0.7)
-       .attr("stroke", "#ffca38")        
-
-    svggI = svg.append("g")    
-    svggI.selectAll("circle")
-       .data(data)
-       .enter()
-       .append("circle")
-       .attr("cx", function(d) {
-                return (scaleDlugosc(d.StacjaDlugosc));
-       })
-       .attr("cy", function(d) {
-                return (scaleSzerokosc(d.StacjaSzerokosc));
-       })
-       .attr("r", function(d) {
-                return (scaleSize(d.Indyjski + d.Afrykanski));
-       })
-       .attr("fill", "#b00064")
-       .attr("opacity", 0.7)
-       .attr("stroke", "#b00064")
-       .on("mouseover", function(d) {      
-            divTooltip2.transition()        
-                .duration(200)      
-                .style("opacity", .9);      
-            divTooltip2.html('<svg> <rect class="cls-3" x="15" y="0" width="142.84" height="91.73"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.Stacja+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-6" > ' + d.Brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.Indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.Afrykanski +'</tspan><tspan x="0" y="70.4">Inne: </tspan><tspan class="cls-8">' + d.Dziki +'</tspan></text></svg>')  
-                .style("left", (d3.event.pageX) + "px")     
-                .style("top", (d3.event.pageY - 28) + "px");    
-            })                  
-        .on("mouseout", function(d) {       
-            divTooltip2.transition()        
-                .duration(500)      
-                .style("opacity", 0);   
-        });
-    </script>
+</script>
 </html>
