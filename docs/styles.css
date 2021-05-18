@@ -232,7 +232,7 @@ a:hover {
 }
 .map-view__footer-title {
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 40px;
     text-transform: uppercase;
 }
 .timeline {
@@ -244,18 +244,24 @@ a:hover {
 .timeline__marker {
     width: 20px;
     height: 20px;
+    cursor: pointer;
     background-color: rgb(1, 1, 73);
     border-radius: 50%;
     right: 0;
+    transition: 0.2s;
     top: calc(50% - 10px);
     position: absolute;
+}
+.timeline__marker:hover {
+  transform: scale(1.2);
 }
 .timline__date {
     position: absolute;
     right: 0;
+    user-select: none;
     font-weight: 500;
+    transform: translate(20px);
     top: -40px;
-    transform: translateX(25%);
     font-size: 18px;
 }
 .help-mark {
