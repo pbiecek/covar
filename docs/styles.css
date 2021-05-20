@@ -126,9 +126,10 @@ a:hover {
 }
 .map-view__title {
     letter-spacing: 1px;
+    text-align: center;
     margin: 2px 0;
-    font-weight: 500;
-    font-size: 34px;
+    font-weight: 400;
+    font-size: 36px;
 }
 .map-view__footer {
     /* height: 200px */
@@ -232,31 +233,48 @@ a:hover {
 }
 .map-view__footer-title {
     font-weight: 500;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-transform: uppercase;
 }
 .timeline {
-    height: 4px;
-    width: 100%;
+    height: 10px;
+    border: 2px solid rgb(1, 1, 73);
+    border-radius: 6px;
+    margin: 0 50px;
     position: relative;
     background-color: rgb(1, 1, 73);
 }
-.timeline__marker {
-    width: 20px;
-    height: 20px;
-    background-color: rgb(1, 1, 73);
-    border-radius: 50%;
-    right: 0;
-    top: calc(50% - 10px);
-    position: absolute;
+.timeline__line {
+    display: flex;
+    justify-content: space-between;
 }
-.timline__date {
+.timeline__marker {
+    width: 8px;
+    height: 8px;
+    cursor: pointer;
+    position: relative;
+    border: 1px solid #ebeef2;
+    display: block;
+    border-radius: 50%;
+    transition: 0.2s;
+}
+.timeline__marker--active {
+    background-color: #ebeef2;
+}
+.timeline__marker:hover {
+  transform: scale(1.05);
+}
+.timeline__date {
     position: absolute;
-    right: 0;
-    font-weight: 500;
+    overflow: visible;
+    text-align: center;
+    transform: translate(-50%);
+    text-wrap: none;
+    user-select: none;
+    font-weight: 300;
     top: -40px;
-    transform: translateX(25%);
-    font-size: 18px;
+    width: 140px;
+    font-size: 16px;
 }
 .help-mark {
     width: 18px;
@@ -301,10 +319,6 @@ a:hover {
     transform: rotate(45deg);
     content: '';
     background-color: white;
-}
-.map-view__header {
-    display: flex;
-    justify-content: space-between;
 }
 .map-view__scale {
     display: flex;
@@ -358,11 +372,48 @@ a:hover {
     justify-content: space-between;
     width: 350px;
 }
+.map-view__tab-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.map-view__header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+.map-view__tab {
+    width: 120px;
+    height: 30px;
+    color: #515151;
+    cursor: pointer;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid #515151;
+}
+.map-view__tab:first-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+.map-view__tab:last-child {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    border-left: 0;
+}
+.map-view__tab--active {
+    background-color: #110c35;
+    color: white;
+}
+.map-view__tab-line {
+    margin: 0 20px;
+    height: 1px;
+    background-color:  #515151;
+}
 .info-panels__pane {
     width: 100px;
     padding: 5px;
     height: 180px;
-
+    border-radius: 10px;
     background-color: white;
 }
 .info-panels__main {
