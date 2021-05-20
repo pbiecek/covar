@@ -74,16 +74,18 @@
                     <div class="map-view__title-section">
                         <h2 class="map-view__title">Monitoring wariantów SARS-COV-2 w Polsce</h2>
                     </div>
-                    <div class="map-view__scale">
-                        <span class="map-view__scale-text">skala:</span>
-                        <span class="map-view__scale-circle--big">250
-                            <span class="map-view__scale-circle--small">50</span>
-                        </span>
+                    <div class="map-view__tab-container">
+                        <div id="gisaid" onclick="switchSource('gisaid')" class="map-view__tab">
+                            dane GISAID
+                        </div>
+                        <div id="pzh" onclick="switchSource('pzh')" class="map-view__tab map-view__tab--active">
+                            dane PZH
+                        </div>
                     </div>
                 </div>
                 <div class="map-view__content">
                     <div class="map-view__filters">
-                        <h4 class="map-view__filters-title">W minionym miesiącu zarejestrowano</h4>
+                        <h4 class="map-view__filters-title">W zaznaczonym okresie zarejestrowano</h4>
                         <div class="info-panels__group">
                             <div class="info-panels__pane">
                                 <h4 id="wild" class="info-panels__main --yellow">-</h4>
@@ -111,25 +113,31 @@
                                 <ul class="filter-block__list">
                                     <li>
                                         <label class="custom-checkbox">Brytyjski
-                                            <input type="checkbox" checked onchange="filtersHandle('Brytyjski')">
+                                            <input type="checkbox" checked onchange="filtersHandle('brytyjski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">Południowoafrykański
-                                            <input type="checkbox" checked onchange="filtersHandle('Afrykanski')">
+                                            <input type="checkbox" checked onchange="filtersHandle('poludniowoafrykanski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">Indyjski
-                                            <input type="checkbox" checked onchange="filtersHandle('Indyjski')">
+                                            <input type="checkbox" checked onchange="filtersHandle('indyjski')">
+                                            <span class="custom-checkbox__checkmark"></span>
+                                        </label>
+                                    </li>
+                                    <li>
+                                        <label class="custom-checkbox">Brazylijski
+                                            <input type="checkbox" checked onchange="filtersHandle('brazylijski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
                                         <label class="custom-checkbox">Dziki
-                                            <input type="checkbox" checked onchange="filtersHandle('Dziki')">
+                                            <input type="checkbox" checked onchange="filtersHandle('dziki')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
@@ -154,13 +162,7 @@
                     </div>
                 </h4>
                 <div class="timeline">
-                    <div class="timeline__line">
-                        <div class="timeline__marker">
-
-                        </div>
-                        <span class=timline__date>
-                            15 maja
-                        </span>
+                    <div id="slider" class="timeline__line">
                     </div>
                 </div>
                 <h4 class="map-view__footer-title" style="background: #ffffff">
@@ -169,16 +171,83 @@
             </div>
         </main>
 </body>
-
-<script src="data/data.js"></script>
+<script src="scripts/pzh.js"></script>
+<script src="scripts/gisaid.js"></script>
 <script>
 
-let acitveFilters = ['Brytyjski', 'Afrykanski', 'Indyjski', 'Dziki'];
+let acitveFilters = ['brytyjski', 'poludniowoafrykanski', 'indyjski', 'brazylijski', 'dziki'];
+
+const currentDate = new Date('2021-04-20');
+const firstDay = new Date(currentDate.setDate(currentDate.getDate() - currentDate.getDay()));
+const ranges = [
+    {
+        label: 'w tym tygodniu',
+        value: firstDay.getTime()
+    },
+    {
+        label: 'ostatnie 2 tygodnie',
+        value: firstDay.getTime() - (1000 * 60 * 60 * 24 * 7)
+    },
+    {
+        label: 'ostatnie 3 tygodnie',
+        value: firstDay.getTime() - (1000 * 60 * 60 * 24 * 7 * 2)
+    },
+    {
+        label: 'ostatni miesiąc',
+        value: firstDay.getTime() - (1000 * 60 * 60 * 24 * 7 * 3)
+    },
+    {
+        label: 'cały okres',
+        value: 0
+    }
+];
+let selectedRangeId = 0;
+
+let dataSource = 'pzh';
+
+function buildMarker(obj, ind, id) {
+    const base = document.createElement('div');
+    base.classList.add('timeline__marker');
+    const date = document.createElement('span');
+    date.classList.add('timeline__date');
+    date.innerHTML = obj.label;
+    if (ind === selectedRangeId) {
+        base.classList.add('timeline__marker--active');
+    }
+    base.addEventListener('click', e => {
+        e.stopPropagation();
+        for (let mark of document.getElementById(id).children) {
+            mark.classList.remove('timeline__marker--active');
+        }
+        base.classList.add('timeline__marker--active');
+        selectedRangeId = ind;
+        reload();
+    });
+    base.appendChild(date);
+    document.getElementById(id).prepend(base);
+}
+
+function switchSource(source) {
+    if (source === 'pzh') {
+        document.getElementById('pzh').classList.add('map-view__tab--active');
+        document.getElementById('gisaid').classList.remove('map-view__tab--active');
+    } else {
+        document.getElementById('pzh').classList.remove('map-view__tab--active');
+        document.getElementById('gisaid').classList.add('map-view__tab--active');
+    }
+    dataSource = source;
+    reload();
+}
+
+ranges.forEach((obj, i) => buildMarker(obj, i, 'slider'));
+
+
 const colorMap = {
-    Brytyjski: '#ff8f57',
-    Afrykanski: '#b00064',
-    Indyjski: '#b00064',
-    Dziki: '#ffca38'
+    brytyjski: '#ff8f57',
+    poludniowoafrykanski: '#b00064',
+    brazylijski: 'green',
+    indyjski: '#b00064',
+    dziki: '#ffca38'
 };
 
 const scaleSzerokosc = d3.scaleLinear()
@@ -203,6 +272,7 @@ const divTooltip2 = d3.select("body").append("div")
 
 const svg = d3.select("#mapa-covar");
 
+
 function filtersHandle(filterName) {
     if (acitveFilters.indexOf(filterName) === -1) {
         acitveFilters = [...acitveFilters, filterName];
@@ -213,22 +283,45 @@ function filtersHandle(filterName) {
 }
 
 async function reload() {
-    const data = await getData();
-    d3.select('#wild').text(data.summary.wild);
-    d3.select('#alert').text(data.summary.alert);
-    d3.select('#special').text(data.summary.special);
+    const unData =  await (dataSource === 'pzh' ? getPZHAIDData() : getGISAIDData());
+    const timespan = ranges[selectedRangeId].value;
+    const filteredData = unData.filter(current => (new Date(current.data)).getTime() > timespan);
+    const groupedByLocation = filteredData.reduce((total, current) => {
+        if (current.miasto in total) {
+            return {
+                ...total,
+                [current.miasto]: {
+                    ...total[current.miasto],
+                    brytyjski: total[current.miasto].brytyjski + current.brytyjski,
+                    brazylijski: total[current.miasto].brazylijski + current.brazylijski,
+                    dziki: total[current.miasto].dziki + current.dziki,
+                    indyjski: total[current.miasto].indyjski + current.indyjski,
+                    poludniowoafrykanski: total[current.miasto].poludniowoafrykanski + current.poludniowoafrykanski
+                }
+            }
+        } else {
+            return {
+                ...total,
+                [current.miasto]: current
+            };
+        }
+    }, {});
+    const data = Object.values(groupedByLocation);
+    d3.select('#wild').text(data.reduce((total, current) => total + current.dziki, 0));
+    d3.select('#alert').text(data.reduce((total, current) => total + current.poludniowoafrykanski + current.indyjski + current.poludniowoafrykanski + current.dziki + current.brytyjski, 0));
+    d3.select('#special').text(data.reduce((total, current) => total + current.poludniowoafrykanski + current.indyjski + current.poludniowoafrykanski, 0));
     svg.selectAll('*').remove();
     acitveFilters.forEach(name => {
         const svgg = svg.append("g");
         svgg.selectAll("circle")
-        .data(data.mapData)
+        .data(data)
         .enter()
         .append("circle")
         .attr("cx", function(d) {
-            return (scaleDlugosc(d.StacjaDlugosc));
+            return (scaleDlugosc(d.dlugosc));
         })
         .attr("cy", function(d) {
-            return (scaleSzerokosc(d.StacjaSzerokosc));
+            return (scaleSzerokosc(d.szerokosc));
         })
         .attr("r", function(d) {
             return (scaleSize(d[name]));
@@ -240,7 +333,7 @@ async function reload() {
             divTooltip.transition()        
                 .duration(200)      
                 .style("opacity", .9);      
-            divTooltip.html('<svg> <rect class="cls-3" x="15" y="0" width="142.84" height="91.73"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.Stacja+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-6" > ' + d.Brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.Indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.Afrykanski +'</tspan><tspan x="0" y="70.4">Inne: </tspan><tspan class="cls-8">' + d.Dziki +'</tspan></text></svg>')  
+            divTooltip.html('<svg><rect class="cls-3" x="15" y="0" width="142.84" height="110"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.miasto+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-36" >' + d.brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.poludniowoafrykanski +'</tspan><tspan x="0" y="70.4">P.1 (brazylijski): </tspan><tspan class="cls-36" >' + d.brazylijski +'</tspan><tspan x="0" y="87">Inne: </tspan><tspan class="cls-8">' + d.dziki +'</tspan></text></svg>')
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
