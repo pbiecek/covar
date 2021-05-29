@@ -22,6 +22,28 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Aleksandrów Kujawski",
+        "data": "2021-04-24",
+        "dlugosc": 18.7,
+        "szerokosc": 52.8833333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Augustów",
+        "data": "2021-04-17",
+        "dlugosc": 22.9666666666667,
+        "szerokosc": 53.85,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE BARTOSZYCE",
         "data": "2021-03-20",
         "dlugosc": 20.8,
@@ -57,6 +79,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE BARTOSZYCE",
         "data": "2021-04-17",
+        "dlugosc": 20.8,
+        "szerokosc": 54.25,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE BARTOSZYCE",
+        "data": "2021-04-24",
         "dlugosc": 20.8,
         "szerokosc": 54.25,
         "brytyjski": 1,
@@ -99,6 +132,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Bełchatów",
+        "data": "2021-04-24",
+        "dlugosc": 19.3666666666667,
+        "szerokosc": 51.3666666666667,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Biała Podl.",
         "data": "2021-03-20",
         "dlugosc": 23.1166666666667,
@@ -143,11 +187,33 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Biała Podl.",
+        "data": "2021-04-24",
+        "dlugosc": 23.1166666666667,
+        "szerokosc": 52.0333333333333,
+        "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Białobrzegi",
         "data": "2021-04-24",
         "dlugosc": 20.95,
         "szerokosc": 51.65,
-        "brytyjski": 1,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Białogard",
+        "data": "2021-04-10",
+        "dlugosc": 15.9833333333333,
+        "szerokosc": 54,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -213,7 +279,7 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 23.1666666666667,
         "szerokosc": 53.1333333333333,
-        "brytyjski": 1,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -255,6 +321,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Bielsko - Biała",
         "data": "2021-04-17",
+        "dlugosc": 19.0666666666667,
+        "szerokosc": 49.8333333333333,
+        "brytyjski": 7,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Bielsko - Biała",
+        "data": "2021-04-24",
         "dlugosc": 19.0666666666667,
         "szerokosc": 49.8333333333333,
         "brytyjski": 3,
@@ -319,6 +396,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Biłgoraj",
+        "data": "2021-04-24",
+        "dlugosc": 22.7166666666667,
+        "szerokosc": 50.5333333333333,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Bochnia",
         "data": "2021-03-20",
         "dlugosc": 20.4166666666667,
@@ -357,6 +445,17 @@ const mapDataPZH = [
         "dlugosc": 20.4166666666667,
         "szerokosc": 49.9666666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Bochnia",
+        "data": "2021-04-24",
+        "dlugosc": 20.4166666666667,
+        "szerokosc": 49.9666666666667,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -396,6 +495,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Braniewo",
+        "data": "2021-04-24",
+        "dlugosc": 19.8333333333333,
+        "szerokosc": 54.3833333333333,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Brodnica",
         "data": "2021-03-20",
         "dlugosc": 16.8833333333333,
@@ -440,6 +550,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Brodnica",
+        "data": "2021-04-24",
+        "dlugosc": 16.8833333333333,
+        "szerokosc": 52.15,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Brzeg",
         "data": "2021-03-27",
         "dlugosc": 17.4833333333333,
@@ -478,6 +599,17 @@ const mapDataPZH = [
         "dlugosc": 17.4833333333333,
         "szerokosc": 50.8666666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Brzeg",
+        "data": "2021-04-24",
+        "dlugosc": 17.4833333333333,
+        "szerokosc": 50.8666666666667,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -532,14 +664,14 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 20.6166666666667,
         "szerokosc": 49.9666666666667,
-        "brytyjski": 3,
+        "brytyjski": 14,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Brzeziny",
+        "miasto": "Brzeziny",
         "data": "2021-04-03",
         "dlugosc": 18.2666666666667,
         "szerokosc": 51.6,
@@ -550,8 +682,19 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Brzeziny",
+        "miasto": "Brzeziny",
         "data": "2021-04-17",
+        "dlugosc": 18.2666666666667,
+        "szerokosc": 51.6,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Brzeziny",
+        "data": "2021-04-24",
         "dlugosc": 18.2666666666667,
         "szerokosc": 51.6,
         "brytyjski": 1,
@@ -610,6 +753,17 @@ const mapDataPZH = [
         "dlugosc": 22.0333333333333,
         "szerokosc": 49.7,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Brzozów",
+        "data": "2021-04-24",
+        "dlugosc": 22.0333333333333,
+        "szerokosc": 49.7,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -671,6 +825,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Bydgoszcz",
+        "data": "2021-04-24",
+        "dlugosc": 18,
+        "szerokosc": 53.1166666666667,
+        "brytyjski": 19,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Bytom",
         "data": "2021-03-20",
         "dlugosc": 18.9,
@@ -708,7 +873,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 18.9,
         "szerokosc": 50.3833333333333,
-        "brytyjski": 4,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -720,6 +885,17 @@ const mapDataPZH = [
         "dlugosc": 18.9,
         "szerokosc": 50.3833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Bytom",
+        "data": "2021-04-24",
+        "dlugosc": 18.9,
+        "szerokosc": 50.3833333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -764,6 +940,17 @@ const mapDataPZH = [
         "dlugosc": 17.5,
         "szerokosc": 54.1666666666667,
         "brytyjski": 7,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Bytów",
+        "data": "2021-04-24",
+        "dlugosc": 17.5,
+        "szerokosc": 54.1666666666667,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -816,6 +1003,17 @@ const mapDataPZH = [
     {
         "miasto": "Chełm",
         "data": "2021-04-17",
+        "dlugosc": 23.4833333333333,
+        "szerokosc": 51.1333333333333,
+        "brytyjski": 8,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Chełm",
+        "data": "2021-04-24",
         "dlugosc": 23.4833333333333,
         "szerokosc": 51.1333333333333,
         "brytyjski": 8,
@@ -880,6 +1078,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Chełmno",
+        "data": "2021-04-24",
+        "dlugosc": 18.4333333333333,
+        "szerokosc": 53.35,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Chodzież",
         "data": "2021-03-20",
         "dlugosc": 16.9166666666667,
@@ -903,10 +1112,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Chodzież",
+        "data": "2021-04-10",
+        "dlugosc": 16.9166666666667,
+        "szerokosc": 52.9833333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Chodzież",
         "data": "2021-04-17",
         "dlugosc": 16.9166666666667,
         "szerokosc": 52.9833333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Chodzież",
+        "data": "2021-04-24",
+        "dlugosc": 16.9166666666667,
+        "szerokosc": 52.9833333333333,
+        "brytyjski": 8,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -972,7 +1203,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.55,
         "szerokosc": 53.7,
-        "brytyjski": 15,
+        "brytyjski": 17,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1038,7 +1269,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 15.4,
         "szerokosc": 53.1666666666667,
-        "brytyjski": 1,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1050,6 +1281,17 @@ const mapDataPZH = [
         "dlugosc": 15.4,
         "szerokosc": 53.1666666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Choszczno",
+        "data": "2021-04-24",
+        "dlugosc": 15.4,
+        "szerokosc": 53.1666666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1115,7 +1357,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19.4,
         "szerokosc": 50.1333333333333,
-        "brytyjski": 2,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1177,6 +1419,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Cieszyn",
+        "data": "2021-04-24",
+        "dlugosc": 18.6333333333333,
+        "szerokosc": 49.75,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Czarnków",
         "data": "2021-03-20",
         "dlugosc": 16.5666666666667,
@@ -1211,6 +1464,17 @@ const mapDataPZH = [
     },
     {
         "miasto": "Czarnków",
+        "data": "2021-04-10",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 52.9,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Czarnków",
         "data": "2021-04-17",
         "dlugosc": 16.5666666666667,
         "szerokosc": 52.9,
@@ -1221,8 +1485,30 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Czarnków",
+        "data": "2021-04-24",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 52.9,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Częstochowa",
         "data": "2021-04-03",
+        "dlugosc": 19.1166666666667,
+        "szerokosc": 50.8,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Częstochowa",
+        "data": "2021-04-10",
         "dlugosc": 19.1166666666667,
         "szerokosc": 50.8,
         "brytyjski": 1,
@@ -1291,7 +1577,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.35,
         "szerokosc": 53.6833333333333,
-        "brytyjski": 1,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1336,6 +1622,17 @@ const mapDataPZH = [
         "dlugosc": 19.2666666666667,
         "szerokosc": 50.3166666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Dąbrowa Górnicza",
+        "data": "2021-04-24",
+        "dlugosc": 19.2666666666667,
+        "szerokosc": 50.3166666666667,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1397,6 +1694,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Dąbrowa Tarnowska",
+        "data": "2021-04-24",
+        "dlugosc": 20.9833333333333,
+        "szerokosc": 50.1833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Dębica",
         "data": "2021-03-20",
         "dlugosc": 21.4166666666667,
@@ -1452,6 +1760,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Dębica",
+        "data": "2021-04-24",
+        "dlugosc": 21.4166666666667,
+        "szerokosc": 50.05,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Drawsko Pom.",
         "data": "2021-03-20",
         "dlugosc": 15.8,
@@ -1468,6 +1787,17 @@ const mapDataPZH = [
         "dlugosc": 15.8,
         "szerokosc": 53.5333333333333,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Drawsko Pom.",
+        "data": "2021-04-24",
+        "dlugosc": 15.8,
+        "szerokosc": 53.5333333333333,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1551,6 +1881,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Działdowo",
+        "data": "2021-04-24",
+        "dlugosc": 20.1833333333333,
+        "szerokosc": 53.2333333333333,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Dzierżoniów",
         "data": "2021-03-20",
         "dlugosc": 16.6333333333333,
@@ -1655,6 +1996,17 @@ const mapDataPZH = [
         "dlugosc": 19.4,
         "szerokosc": 54.1666666666667,
         "brytyjski": 10,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Elbląg",
+        "data": "2021-04-24",
+        "dlugosc": 19.4,
+        "szerokosc": 54.1666666666667,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1753,10 +2105,21 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.6333333333333,
         "szerokosc": 54.3666666666667,
-        "brytyjski": 35,
+        "brytyjski": 42,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 1,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Gdańsk",
+        "data": "2021-05-08",
+        "dlugosc": 18.6333333333333,
+        "szerokosc": 54.3666666666667,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
         "poludniowoafrykanski": 0
     },
     {
@@ -1819,9 +2182,20 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.5333333333333,
         "szerokosc": 54.5333333333333,
-        "brytyjski": 22,
+        "brytyjski": 28,
         "brazylijski": 0,
         "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Gdynia",
+        "data": "2021-05-08",
+        "dlugosc": 18.5333333333333,
+        "szerokosc": 54.5333333333333,
+        "brytyjski": 0,
+        "brazylijski": 0,
+        "dziki": 1,
         "indyjski": 0,
         "poludniowoafrykanski": 0
     },
@@ -1875,6 +2249,17 @@ const mapDataPZH = [
         "dlugosc": 21.7833333333333,
         "szerokosc": 54.0333333333333,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE GIŻYCKO",
+        "data": "2021-04-24",
+        "dlugosc": 21.7833333333333,
+        "szerokosc": 54.0333333333333,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1929,7 +2314,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 18.6666666666667,
         "szerokosc": 50.2833333333333,
-        "brytyjski": 5,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -1940,14 +2325,25 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 18.6666666666667,
         "szerokosc": 50.2833333333333,
-        "brytyjski": 3,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Głogów",
+        "miasto": "PSSE Gliwice",
+        "data": "2021-04-24",
+        "dlugosc": 18.6666666666667,
+        "szerokosc": 50.2833333333333,
+        "brytyjski": 10,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Głogów ",
         "data": "2021-03-20",
         "dlugosc": 16.0833333333333,
         "szerokosc": 51.65,
@@ -1958,7 +2354,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Głogów",
+        "miasto": "Głogów ",
         "data": "2021-04-03",
         "dlugosc": 16.0833333333333,
         "szerokosc": 51.65,
@@ -2028,7 +2424,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.8333333333333,
         "szerokosc": 50.2,
-        "brytyjski": 1,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2069,6 +2465,17 @@ const mapDataPZH = [
     },
     {
         "miasto": "Gniezno",
+        "data": "2021-04-10",
+        "dlugosc": 17.6,
+        "szerokosc": 52.5333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Gniezno",
         "data": "2021-04-17",
         "dlugosc": 17.6,
         "szerokosc": 52.5333333333333,
@@ -2083,7 +2490,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.6,
         "szerokosc": 52.5333333333333,
-        "brytyjski": 2,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2125,6 +2532,17 @@ const mapDataPZH = [
     {
         "miasto": "Goleniów",
         "data": "2021-04-17",
+        "dlugosc": 14.8166666666667,
+        "szerokosc": 53.55,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Goleniów",
+        "data": "2021-04-24",
         "dlugosc": 14.8166666666667,
         "szerokosc": 53.55,
         "brytyjski": 4,
@@ -2176,6 +2594,17 @@ const mapDataPZH = [
         "dziki": 0,
         "indyjski": 0,
         "poludniowoafrykanski": 1
+    },
+    {
+        "miasto": "PSSE Gorlice",
+        "data": "2021-04-24",
+        "dlugosc": 21.1666666666667,
+        "szerokosc": 49.6666666666667,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
     },
     {
         "miasto": "Gorzów Wlkp.",
@@ -2267,10 +2696,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Gostyń",
+        "data": "2021-04-10",
+        "dlugosc": 17.0166666666667,
+        "szerokosc": 51.8833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Gostyń",
         "data": "2021-04-17",
         "dlugosc": 17.0166666666667,
         "szerokosc": 51.8833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Gostyń",
+        "data": "2021-04-24",
+        "dlugosc": 17.0166666666667,
+        "szerokosc": 51.8833333333333,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2343,6 +2794,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Grajewo",
+        "data": "2021-04-17",
+        "dlugosc": 22.45,
+        "szerokosc": 53.65,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "grodziski",
         "data": "2021-03-20",
         "dlugosc": 22.75,
@@ -2388,10 +2850,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Grodzisk Wlkp.",
+        "data": "2021-04-10",
+        "dlugosc": 16.3666666666667,
+        "szerokosc": 52.2333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Grodzisk Wlkp.",
         "data": "2021-04-17",
         "dlugosc": 16.3666666666667,
         "szerokosc": 52.2333333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Grodzisk Wlkp.",
+        "data": "2021-04-24",
+        "dlugosc": 16.3666666666667,
+        "szerokosc": 52.2333333333333,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2464,6 +2948,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Grudziądz",
+        "data": "2021-04-24",
+        "dlugosc": 18.7666666666667,
+        "szerokosc": 53.4833333333333,
+        "brytyjski": 16,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Gryfice",
         "data": "2021-03-20",
         "dlugosc": 15.2,
@@ -2508,6 +3003,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Gryfice",
+        "data": "2021-04-24",
+        "dlugosc": 15.2,
+        "szerokosc": 53.9,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Gryfino",
         "data": "2021-03-20",
         "dlugosc": 14.4833333333333,
@@ -2545,7 +3051,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 14.4833333333333,
         "szerokosc": 53.25,
-        "brytyjski": 1,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2554,6 +3060,17 @@ const mapDataPZH = [
     {
         "miasto": "Gryfino",
         "data": "2021-04-17",
+        "dlugosc": 14.4833333333333,
+        "szerokosc": 53.25,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Gryfino",
+        "data": "2021-04-24",
         "dlugosc": 14.4833333333333,
         "szerokosc": 53.25,
         "brytyjski": 1,
@@ -2618,6 +3135,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Hajnówka",
+        "data": "2021-04-17",
+        "dlugosc": 23.5833333333333,
+        "szerokosc": 52.75,
+        "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Hrubieszów",
         "data": "2021-03-20",
         "dlugosc": 23.8833333333333,
@@ -2667,6 +3195,17 @@ const mapDataPZH = [
         "dlugosc": 23.8833333333333,
         "szerokosc": 50.8,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Hrubieszów",
+        "data": "2021-04-24",
+        "dlugosc": 23.8833333333333,
+        "szerokosc": 50.8,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2717,6 +3256,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Iława",
+        "data": "2021-04-24",
+        "dlugosc": 19.5666666666667,
+        "szerokosc": 53.6,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Inowrocław",
         "data": "2021-03-20",
         "dlugosc": 18.25,
@@ -2733,6 +3283,17 @@ const mapDataPZH = [
         "dlugosc": 18.25,
         "szerokosc": 52.8,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Inowrocław",
+        "data": "2021-04-24",
+        "dlugosc": 18.25,
+        "szerokosc": 52.8,
+        "brytyjski": 10,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2794,6 +3355,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Janów Lub.",
+        "data": "2021-04-24",
+        "dlugosc": 22.4166666666667,
+        "szerokosc": 50.7,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Jarocin",
         "data": "2021-04-03",
         "dlugosc": 22.3333333333333,
@@ -2806,7 +3378,29 @@ const mapDataPZH = [
     },
     {
         "miasto": "Jarocin",
+        "data": "2021-04-10",
+        "dlugosc": 22.3333333333333,
+        "szerokosc": 50.5666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Jarocin",
         "data": "2021-04-17",
+        "dlugosc": 22.3333333333333,
+        "szerokosc": 50.5666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Jarocin",
+        "data": "2021-04-24",
         "dlugosc": 22.3333333333333,
         "szerokosc": 50.5666666666667,
         "brytyjski": 1,
@@ -2871,6 +3465,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Jarosław",
+        "data": "2021-04-24",
+        "dlugosc": 22.7,
+        "szerokosc": 50.0333333333333,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Jasło",
         "data": "2021-03-20",
         "dlugosc": 21.4666666666667,
@@ -2887,6 +3492,17 @@ const mapDataPZH = [
         "dlugosc": 21.4666666666667,
         "szerokosc": 49.7333333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Jasło",
+        "data": "2021-04-24",
+        "dlugosc": 21.4666666666667,
+        "szerokosc": 49.7333333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2915,11 +3531,22 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Jaworzno",
+        "data": "2021-04-24",
+        "dlugosc": 19.2666666666667,
+        "szerokosc": 50.2166666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Jędrzejów",
         "data": "2021-04-17",
         "dlugosc": 20.3,
         "szerokosc": 50.65,
-        "brytyjski": 3,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -2985,7 +3612,18 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 15.7333333333333,
         "szerokosc": 50.9,
-        "brytyjski": 7,
+        "brytyjski": 13,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "JELENIA GÓRA",
+        "data": "2021-04-24",
+        "dlugosc": 15.7333333333333,
+        "szerokosc": 50.9,
+        "brytyjski": 8,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3026,10 +3664,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Kalisz",
+        "data": "2021-04-10",
+        "dlugosc": 18.1,
+        "szerokosc": 51.7666666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kalisz",
         "data": "2021-04-17",
         "dlugosc": 18.1,
         "szerokosc": 51.7666666666667,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kalisz",
+        "data": "2021-04-24",
+        "dlugosc": 18.1,
+        "szerokosc": 51.7666666666667,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3081,10 +3741,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Kamień Pom.",
+        "data": "2021-04-10",
+        "dlugosc": 14.7666666666667,
+        "szerokosc": 53.9666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kamień Pom.",
         "data": "2021-04-17",
         "dlugosc": 14.7666666666667,
         "szerokosc": 53.9666666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kamień Pom.",
+        "data": "2021-04-24",
+        "dlugosc": 14.7666666666667,
+        "szerokosc": 53.9666666666667,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3150,11 +3832,11 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.2,
         "szerokosc": 54.3333333333333,
-        "brytyjski": 3,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
-        "poludniowoafrykanski": 0
+        "poludniowoafrykanski": 1
     },
     {
         "miasto": "PSSE Katowice",
@@ -3194,7 +3876,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 19,
         "szerokosc": 50.25,
-        "brytyjski": 5,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3216,7 +3898,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19,
         "szerokosc": 50.25,
-        "brytyjski": 3,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 4,
@@ -3278,8 +3960,30 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Kędzierzyn-Koźle",
+        "data": "2021-04-24",
+        "dlugosc": 18.2,
+        "szerokosc": 50.35,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Kępno",
         "data": "2021-03-20",
+        "dlugosc": 17.9833333333333,
+        "szerokosc": 51.2833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kępno",
+        "data": "2021-04-10",
         "dlugosc": 17.9833333333333,
         "szerokosc": 51.2833333333333,
         "brytyjski": 1,
@@ -3294,6 +3998,17 @@ const mapDataPZH = [
         "dlugosc": 17.9833333333333,
         "szerokosc": 51.2833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kępno",
+        "data": "2021-04-24",
+        "dlugosc": 17.9833333333333,
+        "szerokosc": 51.2833333333333,
+        "brytyjski": 8,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3338,6 +4053,17 @@ const mapDataPZH = [
         "dlugosc": 21.3833333333333,
         "szerokosc": 54.0833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE KĘTRZYN",
+        "data": "2021-04-24",
+        "dlugosc": 21.3833333333333,
+        "szerokosc": 54.0833333333333,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3392,7 +4118,7 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 20.6166666666667,
         "szerokosc": 50.8833333333333,
-        "brytyjski": 14,
+        "brytyjski": 18,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3403,9 +4129,31 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 20.6166666666667,
         "szerokosc": 50.8833333333333,
+        "brytyjski": 20,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Kłobuck",
+        "data": "2021-04-10",
+        "dlugosc": 18.9333333333333,
+        "szerokosc": 50.9166666666667,
         "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kłodzko",
+        "data": "2021-04-24",
+        "dlugosc": 16.65,
+        "szerokosc": 50.45,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 1,
         "indyjski": 0,
         "poludniowoafrykanski": 0
     },
@@ -3465,6 +4213,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Kluczbork",
+        "data": "2021-04-24",
+        "dlugosc": 18.2166666666667,
+        "szerokosc": 50.9666666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Kolbuszowa",
         "data": "2021-03-20",
         "dlugosc": 21.7833333333333,
@@ -3509,6 +4268,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Kolbuszowa",
+        "data": "2021-04-24",
+        "dlugosc": 21.7833333333333,
+        "szerokosc": 50.2333333333333,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Kolno",
         "data": "2021-04-10",
         "dlugosc": 21,
@@ -3525,6 +4295,17 @@ const mapDataPZH = [
         "dlugosc": 18.65,
         "szerokosc": 52.2,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Koło",
+        "data": "2021-04-10",
+        "dlugosc": 18.65,
+        "szerokosc": 52.2,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3569,6 +4350,17 @@ const mapDataPZH = [
         "dlugosc": 15.5666666666667,
         "szerokosc": 54.1666666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kołobrzeg",
+        "data": "2021-04-24",
+        "dlugosc": 15.5666666666667,
+        "szerokosc": 54.1666666666667,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3620,9 +4412,53 @@ const mapDataPZH = [
     },
     {
         "miasto": "Konin",
+        "data": "2021-04-10",
+        "dlugosc": 18.2666666666667,
+        "szerokosc": 52.2166666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Konin",
         "data": "2021-04-17",
         "dlugosc": 18.2666666666667,
         "szerokosc": 52.2166666666667,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Konin",
+        "data": "2021-04-24",
+        "dlugosc": 18.2666666666667,
+        "szerokosc": 52.2166666666667,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Konin",
+        "data": "2021-05-08",
+        "dlugosc": 18.2666666666667,
+        "szerokosc": 52.2166666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Końskie",
+        "data": "2021-04-03",
+        "dlugosc": 20.4166666666667,
+        "szerokosc": 51.2,
         "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
@@ -3646,6 +4482,17 @@ const mapDataPZH = [
         "dlugosc": 20.4166666666667,
         "szerokosc": 51.2,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Końskie",
+        "data": "2021-04-24",
+        "dlugosc": 20.4166666666667,
+        "szerokosc": 51.2,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3686,10 +4533,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Kościan",
+        "data": "2021-04-10",
+        "dlugosc": 16.65,
+        "szerokosc": 52.0833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kościan",
         "data": "2021-04-17",
         "dlugosc": 16.65,
         "szerokosc": 52.0833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kościan",
+        "data": "2021-04-24",
+        "dlugosc": 16.65,
+        "szerokosc": 52.0833333333333,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3744,7 +4613,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.9666666666667,
         "szerokosc": 54.1166666666667,
-        "brytyjski": 8,
+        "brytyjski": 10,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3788,7 +4657,18 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 16.1833333333333,
         "szerokosc": 54.1833333333333,
-        "brytyjski": 3,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 1,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Koszalin",
+        "data": "2021-04-24",
+        "dlugosc": 16.1833333333333,
+        "szerokosc": 54.1833333333333,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -3854,10 +4734,10 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19.95,
         "szerokosc": 50.05,
-        "brytyjski": 1,
+        "brytyjski": 15,
         "brazylijski": 0,
         "dziki": 0,
-        "indyjski": 0,
+        "indyjski": 3,
         "poludniowoafrykanski": 0
     },
     {
@@ -3916,6 +4796,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Krapkowice",
+        "data": "2021-04-24",
+        "dlugosc": 17.9666666666667,
+        "szerokosc": 50.4666666666667,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Kraśnik",
         "data": "2021-03-20",
         "dlugosc": 22.2333333333333,
@@ -3960,6 +4851,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Kraśnik",
+        "data": "2021-04-24",
+        "dlugosc": 22.2333333333333,
+        "szerokosc": 50.9166666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Krasnystaw",
         "data": "2021-03-20",
         "dlugosc": 23.1833333333333,
@@ -3987,6 +4889,17 @@ const mapDataPZH = [
         "dlugosc": 23.1833333333333,
         "szerokosc": 50.9833333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Krasnystaw",
+        "data": "2021-04-24",
+        "dlugosc": 23.1833333333333,
+        "szerokosc": 50.9833333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4148,6 +5061,17 @@ const mapDataPZH = [
     },
     {
         "miasto": "Krotoszyn",
+        "data": "2021-04-10",
+        "dlugosc": 17.4333333333333,
+        "szerokosc": 51.6833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Krotoszyn",
         "data": "2021-04-17",
         "dlugosc": 17.4333333333333,
         "szerokosc": 51.6833333333333,
@@ -4158,7 +5082,29 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Kutno",
+        "miasto": "Krotoszyn",
+        "data": "2021-04-24",
+        "dlugosc": 17.4333333333333,
+        "szerokosc": 51.6833333333333,
+        "brytyjski": 7,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Krotoszyn",
+        "data": "2021-05-08",
+        "dlugosc": 17.4333333333333,
+        "szerokosc": 51.6833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kutno",
         "data": "2021-04-10",
         "dlugosc": 19.3666666666667,
         "szerokosc": 52.2333333333333,
@@ -4169,11 +5115,22 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Kutno",
+        "miasto": "Kutno",
         "data": "2021-04-17",
         "dlugosc": 19.3666666666667,
         "szerokosc": 52.2333333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Kutno",
+        "data": "2021-04-24",
+        "dlugosc": 19.3666666666667,
+        "szerokosc": 52.2333333333333,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4290,6 +5247,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Łańcut",
+        "data": "2021-04-24",
+        "dlugosc": 22.2333333333333,
+        "szerokosc": 50.0666666666667,
+        "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Łask",
         "data": "2021-04-10",
         "dlugosc": 19.1333333333333,
@@ -4303,6 +5271,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Łask",
         "data": "2021-04-17",
+        "dlugosc": 19.1333333333333,
+        "szerokosc": 51.6,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Łask",
+        "data": "2021-04-24",
         "dlugosc": 19.1333333333333,
         "szerokosc": 51.6,
         "brytyjski": 2,
@@ -4360,7 +5339,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.75,
         "szerokosc": 54.55,
-        "brytyjski": 2,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4411,7 +5390,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Łęczyca",
+        "miasto": "PSSE Łęczyca",
         "data": "2021-04-03",
         "dlugosc": 19.2,
         "szerokosc": 52.05,
@@ -4422,7 +5401,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Łęczyca",
+        "miasto": "PSSE Łęczyca",
         "data": "2021-04-10",
         "dlugosc": 19.2,
         "szerokosc": 52.05,
@@ -4433,11 +5412,22 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Łęczyca",
+        "miasto": "PSSE Łęczyca",
         "data": "2021-04-17",
         "dlugosc": 19.2,
         "szerokosc": 52.05,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Łęczyca",
+        "data": "2021-04-24",
+        "dlugosc": 19.2,
+        "szerokosc": 52.05,
+        "brytyjski": 9,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4470,7 +5460,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 20.9333333333333,
         "szerokosc": 52.4166666666667,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4544,10 +5534,43 @@ const mapDataPZH = [
     },
     {
         "miasto": "Leszno",
+        "data": "2021-04-10",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 51.85,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Leszno",
         "data": "2021-04-17",
         "dlugosc": 16.5666666666667,
         "szerokosc": 51.85,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Leszno",
+        "data": "2021-04-24",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 51.85,
+        "brytyjski": 8,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Leszno",
+        "data": "2021-05-08",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 51.85,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4589,6 +5612,17 @@ const mapDataPZH = [
     {
         "miasto": "Leżajsk",
         "data": "2021-04-17",
+        "dlugosc": 22.4333333333333,
+        "szerokosc": 50.2666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Leżajsk",
+        "data": "2021-04-24",
         "dlugosc": 22.4333333333333,
         "szerokosc": 50.2666666666667,
         "brytyjski": 1,
@@ -4686,6 +5720,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Limanowa",
+        "data": "2021-04-24",
+        "dlugosc": 20.4166666666667,
+        "szerokosc": 49.7166666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Lipno",
         "data": "2021-03-20",
         "dlugosc": 19.1666666666667,
@@ -4730,6 +5775,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Lipno",
+        "data": "2021-04-24",
+        "dlugosc": 19.1666666666667,
+        "szerokosc": 52.85,
+        "brytyjski": 7,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Lipsko",
         "data": "2021-04-03",
         "dlugosc": 21.6666666666667,
@@ -4756,7 +5812,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 15.6166666666667,
         "szerokosc": 53.6333333333333,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4765,6 +5821,17 @@ const mapDataPZH = [
     {
         "miasto": "Łobez",
         "data": "2021-04-17",
+        "dlugosc": 15.6166666666667,
+        "szerokosc": 53.6333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Łobez",
+        "data": "2021-04-24",
         "dlugosc": 15.6166666666667,
         "szerokosc": 53.6333333333333,
         "brytyjski": 1,
@@ -4829,6 +5896,28 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Łódź",
+        "data": "2021-04-24",
+        "dlugosc": 19.4666666666667,
+        "szerokosc": 51.7833333333333,
+        "brytyjski": 63,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Łódź",
+        "data": "2021-05-08",
+        "dlugosc": 19.4666666666667,
+        "szerokosc": 51.7833333333333,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Łomża",
         "data": "2021-03-13",
         "dlugosc": 22.0666666666667,
@@ -4878,6 +5967,17 @@ const mapDataPZH = [
         "dlugosc": 19.9333333333333,
         "szerokosc": 52.1,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE w Łowiczu",
+        "data": "2021-04-24",
+        "dlugosc": 19.9333333333333,
+        "szerokosc": 52.1,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -4950,6 +6050,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Lubartów",
+        "data": "2021-04-24",
+        "dlugosc": 22.6166666666667,
+        "szerokosc": 51.45,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Lubin",
         "data": "2021-03-20",
         "dlugosc": 16.2,
@@ -4999,6 +6110,17 @@ const mapDataPZH = [
         "dlugosc": 16.2,
         "szerokosc": 51.4,
         "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Lubin",
+        "data": "2021-04-24",
+        "dlugosc": 16.2,
+        "szerokosc": 51.4,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5060,6 +6182,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Lublin",
+        "data": "2021-04-24",
+        "dlugosc": 22.5666666666667,
+        "szerokosc": 51.2333333333333,
+        "brytyjski": 13,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Lubliniec",
         "data": "2021-03-27",
         "dlugosc": 18.6833333333333,
@@ -5108,7 +6241,18 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 15.5833333333333,
         "szerokosc": 51.1166666666667,
-        "brytyjski": 1,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Lwówek Śląski",
+        "data": "2021-04-24",
+        "dlugosc": 15.5833333333333,
+        "szerokosc": 51.1166666666667,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5137,6 +6281,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Malbork",
+        "data": "2021-04-24",
+        "dlugosc": 19.0333333333333,
+        "szerokosc": 54.0333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Miechów",
         "data": "2021-03-20",
         "dlugosc": 20.0333333333333,
@@ -5175,6 +6330,17 @@ const mapDataPZH = [
         "dlugosc": 20.0333333333333,
         "szerokosc": 50.35,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Miechów",
+        "data": "2021-04-24",
+        "dlugosc": 20.0333333333333,
+        "szerokosc": 50.35,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5274,6 +6440,17 @@ const mapDataPZH = [
         "dlugosc": 21.4333333333333,
         "szerokosc": 50.2833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Mielec",
+        "data": "2021-04-24",
+        "dlugosc": 21.4333333333333,
+        "szerokosc": 50.2833333333333,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5339,7 +6516,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 21.55,
         "szerokosc": 52.1833333333333,
-        "brytyjski": 2,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5351,6 +6528,17 @@ const mapDataPZH = [
         "dlugosc": 17.95,
         "szerokosc": 52.65,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Mogilno",
+        "data": "2021-04-24",
+        "dlugosc": 17.95,
+        "szerokosc": 52.65,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5412,6 +6600,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Mońki",
+        "data": "2021-04-17",
+        "dlugosc": 22.8,
+        "szerokosc": 53.4166666666667,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE MRĄGOWO",
         "data": "2021-03-20",
         "dlugosc": 21.3,
@@ -5439,6 +6638,17 @@ const mapDataPZH = [
         "dlugosc": 21.3,
         "szerokosc": 53.8666666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE MRĄGOWO",
+        "data": "2021-04-24",
+        "dlugosc": 21.3,
+        "szerokosc": 53.8666666666667,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5504,7 +6714,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19.95,
         "szerokosc": 49.8333333333333,
-        "brytyjski": 1,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5534,10 +6744,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Myślibórz",
+        "data": "2021-04-10",
+        "dlugosc": 14.85,
+        "szerokosc": 52.9166666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Myślibórz",
         "data": "2021-04-17",
         "dlugosc": 14.85,
         "szerokosc": 52.9166666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Myślibórz",
+        "data": "2021-04-24",
+        "dlugosc": 14.85,
+        "szerokosc": 52.9166666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5582,6 +6814,17 @@ const mapDataPZH = [
         "dlugosc": 17.5833333333333,
         "szerokosc": 53.15,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Nakło",
+        "data": "2021-04-24",
+        "dlugosc": 17.5833333333333,
+        "szerokosc": 53.15,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5654,6 +6897,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Nidzica",
+        "data": "2021-04-24",
+        "dlugosc": 20.4166666666667,
+        "szerokosc": 53.35,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Nisko",
         "data": "2021-03-20",
         "dlugosc": 22.1333333333333,
@@ -5692,6 +6946,17 @@ const mapDataPZH = [
         "dlugosc": 22.1333333333333,
         "szerokosc": 50.5166666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Nisko",
+        "data": "2021-04-24",
+        "dlugosc": 22.1333333333333,
+        "szerokosc": 50.5166666666667,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5797,6 +7062,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Nowe Miasto Lubawskie",
+        "data": "2021-04-24",
+        "dlugosc": 19.5833333333333,
+        "szerokosc": 53.4333333333333,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "nowodworski",
         "data": "2021-04-10",
         "dlugosc": 23.55,
@@ -5824,6 +7100,17 @@ const mapDataPZH = [
         "dlugosc": 19.1,
         "szerokosc": 54.2166666666667,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Nowy Dwór Gdański",
+        "data": "2021-04-24",
+        "dlugosc": 19.1,
+        "szerokosc": 54.2166666666667,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5863,11 +7150,33 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Nowy Sącz",
+        "data": "2021-04-24",
+        "dlugosc": 20.7,
+        "szerokosc": 49.6166666666667,
+        "brytyjski": 14,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Nowy Targ",
         "data": "2021-04-17",
         "dlugosc": 20.0333333333333,
         "szerokosc": 49.4833333333333,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Nowy Targ",
+        "data": "2021-04-24",
+        "dlugosc": 20.0333333333333,
+        "szerokosc": 49.4833333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5908,10 +7217,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Nowy Tomyśl",
+        "data": "2021-04-10",
+        "dlugosc": 16.1333333333333,
+        "szerokosc": 52.3166666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Nowy Tomyśl",
         "data": "2021-04-17",
         "dlugosc": 16.1333333333333,
         "szerokosc": 52.3166666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Nowy Tomyśl",
+        "data": "2021-04-24",
+        "dlugosc": 16.1333333333333,
+        "szerokosc": 52.3166666666667,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -5962,6 +7293,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Nysa",
+        "data": "2021-04-24",
+        "dlugosc": 17.3333333333333,
+        "szerokosc": 50.4666666666667,
+        "brytyjski": 7,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Oborniki",
         "data": "2021-03-27",
         "dlugosc": 16.8166666666667,
@@ -5980,6 +7322,17 @@ const mapDataPZH = [
         "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 1,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Oborniki",
+        "data": "2021-04-24",
+        "dlugosc": 16.8166666666667,
+        "szerokosc": 52.6333333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
         "indyjski": 0,
         "poludniowoafrykanski": 0
     },
@@ -6127,6 +7480,28 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Olesno",
+        "data": "2021-04-24",
+        "dlugosc": 18.4166666666667,
+        "szerokosc": 50.8833333333333,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Olesno",
+        "data": "2021-05-08",
+        "dlugosc": 18.4166666666667,
+        "szerokosc": 50.8833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Olkusz",
         "data": "2021-03-20",
         "dlugosc": 19.0666666666667,
@@ -6175,7 +7550,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19.0666666666667,
         "szerokosc": 50.2833333333333,
-        "brytyjski": 1,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6237,6 +7612,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Olsztyn",
+        "data": "2021-04-24",
+        "dlugosc": 20.5,
+        "szerokosc": 53.7833333333333,
+        "brytyjski": 18,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Opatów",
         "data": "2021-03-20",
         "dlugosc": 18.8,
@@ -6274,7 +7660,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 20.2833333333333,
         "szerokosc": 51.3833333333333,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6336,6 +7722,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Opole",
+        "data": "2021-04-24",
+        "dlugosc": 17.9333333333333,
+        "szerokosc": 50.6666666666667,
+        "brytyjski": 17,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Opole Lub.",
         "data": "2021-04-17",
         "dlugosc": 21.9833333333333,
@@ -6347,7 +7744,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Ostróda",
+        "miasto": "PSSE  Ostróda",
         "data": "2021-03-20",
         "dlugosc": 19.9666666666667,
         "szerokosc": 53.7,
@@ -6358,7 +7755,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Ostróda",
+        "miasto": "PSSE  Ostróda",
         "data": "2021-03-27",
         "dlugosc": 19.9666666666667,
         "szerokosc": 53.7,
@@ -6369,7 +7766,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Ostróda",
+        "miasto": "PSSE  Ostróda",
         "data": "2021-04-10",
         "dlugosc": 19.9666666666667,
         "szerokosc": 53.7,
@@ -6380,11 +7777,33 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Ostróda",
+        "miasto": "PSSE  Ostróda",
         "data": "2021-04-17",
         "dlugosc": 19.9666666666667,
         "szerokosc": 53.7,
-        "brytyjski": 5,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE  Ostróda",
+        "data": "2021-04-24",
+        "dlugosc": 19.9666666666667,
+        "szerokosc": 53.7,
+        "brytyjski": 24,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE  Ostróda",
+        "data": "2021-05-08",
+        "dlugosc": 19.9666666666667,
+        "szerokosc": 53.7,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6393,6 +7812,17 @@ const mapDataPZH = [
     {
         "miasto": "Ostrowiec Świętokrzyski",
         "data": "2021-04-17",
+        "dlugosc": 21.3833333333333,
+        "szerokosc": 50.85,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Ostrowiec Świętokrzyski",
+        "data": "2021-04-24",
         "dlugosc": 21.3833333333333,
         "szerokosc": 50.85,
         "brytyjski": 1,
@@ -6425,10 +7855,43 @@ const mapDataPZH = [
     },
     {
         "miasto": "Ostrów Wlkp.",
+        "data": "2021-04-10",
+        "dlugosc": 17.8166666666667,
+        "szerokosc": 51.6333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Ostrów Wlkp.",
         "data": "2021-04-17",
         "dlugosc": 17.8166666666667,
         "szerokosc": 51.6333333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Ostrów Wlkp.",
+        "data": "2021-04-24",
+        "dlugosc": 17.8166666666667,
+        "szerokosc": 51.6333333333333,
+        "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Ostrzeszów",
+        "data": "2021-04-10",
+        "dlugosc": 17.9333333333333,
+        "szerokosc": 51.4166666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6483,7 +7946,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19.1333333333333,
         "szerokosc": 50.0333333333333,
-        "brytyjski": 1,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6538,14 +8001,14 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 21.25,
         "szerokosc": 52.1166666666667,
-        "brytyjski": 2,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Pabianice",
+        "miasto": "Pabianice",
         "data": "2021-03-20",
         "dlugosc": 19.3666666666667,
         "szerokosc": 51.6666666666667,
@@ -6556,7 +8019,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Pabianice",
+        "miasto": "Pabianice",
         "data": "2021-03-27",
         "dlugosc": 19.3666666666667,
         "szerokosc": 51.6666666666667,
@@ -6567,7 +8030,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Pabianice",
+        "miasto": "Pabianice",
         "data": "2021-04-03",
         "dlugosc": 19.3666666666667,
         "szerokosc": 51.6666666666667,
@@ -6578,7 +8041,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Pabianice",
+        "miasto": "Pabianice",
         "data": "2021-04-10",
         "dlugosc": 19.3666666666667,
         "szerokosc": 51.6666666666667,
@@ -6589,11 +8052,33 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Pabianice",
+        "miasto": "Pabianice",
         "data": "2021-04-17",
         "dlugosc": 19.3666666666667,
         "szerokosc": 51.6666666666667,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Pabianice",
+        "data": "2021-04-24",
+        "dlugosc": 19.3666666666667,
+        "szerokosc": 51.6666666666667,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE  Pasłęk",
+        "data": "2021-04-24",
+        "dlugosc": 19.6666666666667,
+        "szerokosc": 54.0666666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6648,7 +8133,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 21.0333333333333,
         "szerokosc": 52.0666666666667,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6668,6 +8153,17 @@ const mapDataPZH = [
     {
         "miasto": "Piła",
         "data": "2021-04-03",
+        "dlugosc": 16.75,
+        "szerokosc": 53.1666666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Piła",
+        "data": "2021-04-10",
         "dlugosc": 16.75,
         "szerokosc": 53.1666666666667,
         "brytyjski": 2,
@@ -6682,6 +8178,28 @@ const mapDataPZH = [
         "dlugosc": 16.75,
         "szerokosc": 53.1666666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Piła",
+        "data": "2021-04-24",
+        "dlugosc": 16.75,
+        "szerokosc": 53.1666666666667,
+        "brytyjski": 7,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Piła",
+        "data": "2021-05-08",
+        "dlugosc": 16.75,
+        "szerokosc": 53.1666666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6725,7 +8243,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 19.6833333333333,
         "szerokosc": 51.4,
-        "brytyjski": 1,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6756,6 +8274,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Pisz",
         "data": "2021-04-10",
+        "dlugosc": 21.8,
+        "szerokosc": 53.6333333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Pisz",
+        "data": "2021-04-24",
         "dlugosc": 21.8,
         "szerokosc": 53.6333333333333,
         "brytyjski": 2,
@@ -6803,6 +8332,17 @@ const mapDataPZH = [
         "dlugosc": 17.7833333333333,
         "szerokosc": 51.8833333333333,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Pleszew",
+        "data": "2021-04-24",
+        "dlugosc": 17.7833333333333,
+        "szerokosc": 51.8833333333333,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -6886,6 +8426,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Poddębice",
+        "data": "2021-04-24",
+        "dlugosc": 18.95,
+        "szerokosc": 51.8833333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Police",
         "data": "2021-03-20",
         "dlugosc": 14.55,
@@ -6941,6 +8492,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Police",
+        "data": "2021-04-24",
+        "dlugosc": 14.55,
+        "szerokosc": 53.55,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Polkowice",
         "data": "2021-03-20",
         "dlugosc": 16.0666666666667,
@@ -6976,6 +8538,17 @@ const mapDataPZH = [
     {
         "miasto": "Polkowice",
         "data": "2021-04-17",
+        "dlugosc": 16.0666666666667,
+        "szerokosc": 51.6,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Polkowice",
+        "data": "2021-04-24",
         "dlugosc": 16.0666666666667,
         "szerokosc": 51.6,
         "brytyjski": 1,
@@ -7019,10 +8592,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Poznań",
+        "data": "2021-04-10",
+        "dlugosc": 16.9166666666667,
+        "szerokosc": 52.4166666666667,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Poznań",
         "data": "2021-04-17",
         "dlugosc": 16.9166666666667,
         "szerokosc": 52.4166666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Poznań",
+        "data": "2021-04-24",
+        "dlugosc": 16.9166666666667,
+        "szerokosc": 52.4166666666667,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7064,6 +8659,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Proszowice",
         "data": "2021-04-17",
+        "dlugosc": 20.2833333333333,
+        "szerokosc": 50.2,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Proszowice",
+        "data": "2021-04-24",
         "dlugosc": 20.2833333333333,
         "szerokosc": 50.2,
         "brytyjski": 1,
@@ -7122,6 +8728,17 @@ const mapDataPZH = [
         "dlugosc": 17.6,
         "szerokosc": 50.3166666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Prudnik",
+        "data": "2021-04-24",
+        "dlugosc": 17.6,
+        "szerokosc": 50.3166666666667,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7187,7 +8804,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.6333333333333,
         "szerokosc": 54.2666666666667,
-        "brytyjski": 3,
+        "brytyjski": 9,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7276,6 +8893,17 @@ const mapDataPZH = [
         "dlugosc": 22.7833333333333,
         "szerokosc": 49.8,
         "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Przemyśl",
+        "data": "2021-04-24",
+        "dlugosc": 22.7833333333333,
+        "szerokosc": 49.8,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7396,7 +9024,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.4,
         "szerokosc": 54.7333333333333,
-        "brytyjski": 6,
+        "brytyjski": 9,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7427,6 +9055,17 @@ const mapDataPZH = [
     {
         "miasto": "Pułtusk",
         "data": "2021-04-17",
+        "dlugosc": 21.0833333333333,
+        "szerokosc": 52.7166666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Pułtusk",
+        "data": "2021-04-24",
         "dlugosc": 21.0833333333333,
         "szerokosc": 52.7166666666667,
         "brytyjski": 1,
@@ -7470,6 +9109,17 @@ const mapDataPZH = [
     },
     {
         "miasto": "Pyrzyce",
+        "data": "2021-04-10",
+        "dlugosc": 14.8833333333333,
+        "szerokosc": 53.1333333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Pyrzyce",
         "data": "2021-04-17",
         "dlugosc": 14.8833333333333,
         "szerokosc": 53.1333333333333,
@@ -7493,6 +9143,28 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Racibórz",
         "data": "2021-04-03",
+        "dlugosc": 18.2333333333333,
+        "szerokosc": 50.0833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Racibórz",
+        "data": "2021-04-10",
+        "dlugosc": 18.2333333333333,
+        "szerokosc": 50.0833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Racibórz",
+        "data": "2021-04-24",
         "dlugosc": 18.2333333333333,
         "szerokosc": 50.0833333333333,
         "brytyjski": 1,
@@ -7561,7 +9233,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 21.1666666666667,
         "szerokosc": 51.4,
-        "brytyjski": 8,
+        "brytyjski": 12,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7590,6 +9262,50 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Radomsko",
+        "data": "2021-04-24",
+        "dlugosc": 19.45,
+        "szerokosc": 51.0666666666667,
+        "brytyjski": 16,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Radomsko",
+        "data": "2021-05-08",
+        "dlugosc": 19.45,
+        "szerokosc": 51.0666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Radziejów",
+        "data": "2021-04-24",
+        "dlugosc": 18.5166666666667,
+        "szerokosc": 52.6333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Radziejów",
+        "data": "2021-05-08",
+        "dlugosc": 18.5166666666667,
+        "szerokosc": 52.6333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Radzyń Podl.",
         "data": "2021-03-20",
         "dlugosc": 22.6333333333333,
@@ -7612,7 +9328,18 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE w Rawie Mazowieckiej",
+        "miasto": "Radzyń Podl.",
+        "data": "2021-04-24",
+        "dlugosc": 22.6333333333333,
+        "szerokosc": 51.8,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "rawicki",
         "data": "2021-03-20",
         "dlugosc": 20.2666666666667,
         "szerokosc": 51.7666666666667,
@@ -7623,7 +9350,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE w Rawie Mazowieckiej",
+        "miasto": "rawicki",
         "data": "2021-03-27",
         "dlugosc": 20.2666666666667,
         "szerokosc": 51.7666666666667,
@@ -7634,7 +9361,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE w Rawie Mazowieckiej",
+        "miasto": "rawicki",
         "data": "2021-04-10",
         "dlugosc": 20.2666666666667,
         "szerokosc": 51.7666666666667,
@@ -7645,7 +9372,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE w Rawie Mazowieckiej",
+        "miasto": "rawicki",
         "data": "2021-04-17",
         "dlugosc": 20.2666666666667,
         "szerokosc": 51.7666666666667,
@@ -7669,6 +9396,17 @@ const mapDataPZH = [
     {
         "miasto": "Rawicz",
         "data": "2021-04-03",
+        "dlugosc": 16.8666666666667,
+        "szerokosc": 51.6,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Rawicz",
+        "data": "2021-04-10",
         "dlugosc": 16.8666666666667,
         "szerokosc": 51.6,
         "brytyjski": 1,
@@ -7689,6 +9427,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Rawicz",
+        "data": "2021-04-24",
+        "dlugosc": 16.8666666666667,
+        "szerokosc": 51.6,
+        "brytyjski": 8,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Ropczyce",
         "data": "2021-03-27",
         "dlugosc": 21.6166666666667,
@@ -7722,7 +9471,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Ruda Śląska",
+        "miasto": "PSSE Ruda Śląska ",
         "data": "2021-03-20",
         "dlugosc": 18.8666666666667,
         "szerokosc": 50.2666666666667,
@@ -7733,11 +9482,11 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Ruda Śląska",
+        "miasto": "PSSE Ruda Śląska ",
         "data": "2021-04-10",
         "dlugosc": 18.8666666666667,
         "szerokosc": 50.2666666666667,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -7790,6 +9539,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Rybnik",
         "data": "2021-04-17",
+        "dlugosc": 18.55,
+        "szerokosc": 50.0833333333333,
+        "brytyjski": 8,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Rybnik",
+        "data": "2021-04-24",
         "dlugosc": 18.55,
         "szerokosc": 50.0833333333333,
         "brytyjski": 5,
@@ -7876,6 +9636,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Rzeszów",
+        "data": "2021-04-24",
+        "dlugosc": 22.0166666666667,
+        "szerokosc": 50.05,
+        "brytyjski": 8,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Sandomierz",
         "data": "2021-03-13",
         "dlugosc": 21.75,
@@ -7888,7 +9659,29 @@ const mapDataPZH = [
     },
     {
         "miasto": "Sandomierz",
+        "data": "2021-04-03",
+        "dlugosc": 21.75,
+        "szerokosc": 50.6833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sandomierz",
         "data": "2021-04-17",
+        "dlugosc": 21.75,
+        "szerokosc": 50.6833333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sandomierz",
+        "data": "2021-04-24",
         "dlugosc": 21.75,
         "szerokosc": 50.6833333333333,
         "brytyjski": 2,
@@ -7942,6 +9735,28 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Sanok",
+        "data": "2021-04-24",
+        "dlugosc": 22.2166666666667,
+        "szerokosc": 49.55,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sejny",
+        "data": "2021-04-17",
+        "dlugosc": 23.35,
+        "szerokosc": 54.1,
+        "brytyjski": 0,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 1
+    },
+    {
         "miasto": "Sępólno Krajeńskie",
         "data": "2021-03-27",
         "dlugosc": 17.5333333333333,
@@ -7969,6 +9784,17 @@ const mapDataPZH = [
         "dlugosc": 17.5333333333333,
         "szerokosc": 53.45,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sępólno Krajeńskie",
+        "data": "2021-04-24",
+        "dlugosc": 17.5333333333333,
+        "szerokosc": 53.45,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8034,7 +9860,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 22.2833333333333,
         "szerokosc": 52.1833333333333,
-        "brytyjski": 4,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8107,6 +9933,28 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Sieradz",
+        "data": "2021-04-24",
+        "dlugosc": 18.7333333333333,
+        "szerokosc": 51.6,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sieradz",
+        "data": "2021-05-08",
+        "dlugosc": 18.7333333333333,
+        "szerokosc": 51.6,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Sierpc",
         "data": "2021-03-20",
         "dlugosc": 19.6666666666667,
@@ -8118,11 +9966,22 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Skarżysko - Kamienna",
+        "miasto": "Skarżysko-Kamienna",
         "data": "2021-04-17",
         "dlugosc": 20.85,
         "szerokosc": 51.1166666666667,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Skarżysko-Kamienna",
+        "data": "2021-04-24",
+        "dlugosc": 20.85,
+        "szerokosc": 51.1166666666667,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8162,6 +10021,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Skierniewice",
+        "data": "2021-04-24",
+        "dlugosc": 20.1333333333333,
+        "szerokosc": 51.9666666666667,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Sławno",
         "data": "2021-03-20",
         "dlugosc": 20.15,
@@ -8178,6 +10048,28 @@ const mapDataPZH = [
         "dlugosc": 20.15,
         "szerokosc": 51.3833333333333,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sławno",
+        "data": "2021-04-10",
+        "dlugosc": 20.15,
+        "szerokosc": 51.3833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sławno",
+        "data": "2021-04-24",
+        "dlugosc": 20.15,
+        "szerokosc": 51.3833333333333,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8243,7 +10135,18 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 17.8833333333333,
         "szerokosc": 52.2833333333333,
-        "brytyjski": 2,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Słupca",
+        "data": "2021-04-24",
+        "dlugosc": 17.8833333333333,
+        "szerokosc": 52.2833333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8309,7 +10212,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.0333333333333,
         "szerokosc": 54.4666666666667,
-        "brytyjski": 4,
+        "brytyjski": 8,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8342,7 +10245,18 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 20.2166666666667,
         "szerokosc": 52.2333333333333,
-        "brytyjski": 3,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Sochaczew",
+        "data": "2021-05-01",
+        "dlugosc": 20.2166666666667,
+        "szerokosc": 52.2333333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8430,7 +10344,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.55,
         "szerokosc": 54.4333333333333,
-        "brytyjski": 11,
+        "brytyjski": 12,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8463,7 +10377,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 19.1333333333333,
         "szerokosc": 50.2833333333333,
-        "brytyjski": 3,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8482,10 +10396,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Śrem",
+        "data": "2021-04-10",
+        "dlugosc": 17.0166666666667,
+        "szerokosc": 52.0833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Śrem",
         "data": "2021-04-17",
         "dlugosc": 17.0166666666667,
         "szerokosc": 52.0833333333333,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Śrem",
+        "data": "2021-04-24",
+        "dlugosc": 17.0166666666667,
+        "szerokosc": 52.0833333333333,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8548,10 +10484,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Środa Wlkp.",
+        "data": "2021-04-10",
+        "dlugosc": 17.2666666666667,
+        "szerokosc": 52.2333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Środa Wlkp.",
         "data": "2021-04-17",
         "dlugosc": 17.2666666666667,
         "szerokosc": 52.2333333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Środa Wlkp.",
+        "data": "2021-04-24",
+        "dlugosc": 17.2666666666667,
+        "szerokosc": 52.2333333333333,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8585,6 +10543,17 @@ const mapDataPZH = [
         "dlugosc": 22.0833333333333,
         "szerokosc": 50.5666666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Stalowa Wola",
+        "data": "2021-04-24",
+        "dlugosc": 22.0833333333333,
+        "szerokosc": 50.5666666666667,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8602,6 +10571,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Starachowice",
+        "data": "2021-04-24",
+        "dlugosc": 21.0666666666667,
+        "szerokosc": 51.0333333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Stargard",
         "data": "2021-03-20",
         "dlugosc": 15.0333333333333,
@@ -8651,6 +10631,17 @@ const mapDataPZH = [
         "dlugosc": 15.0333333333333,
         "szerokosc": 53.3333333333333,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Stargard",
+        "data": "2021-04-24",
+        "dlugosc": 15.0333333333333,
+        "szerokosc": 53.3333333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8684,6 +10675,17 @@ const mapDataPZH = [
         "dlugosc": 18.5333333333333,
         "szerokosc": 53.9666666666667,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Starogard Gdański",
+        "data": "2021-04-24",
+        "dlugosc": 18.5333333333333,
+        "szerokosc": 53.9666666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8756,6 +10758,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Strzelce Opolskie",
+        "data": "2021-04-24",
+        "dlugosc": 18.3,
+        "szerokosc": 50.5166666666667,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Strzelin",
         "data": "2021-04-03",
         "dlugosc": 17.0666666666667,
@@ -8772,6 +10785,17 @@ const mapDataPZH = [
         "dlugosc": 17.0666666666667,
         "szerokosc": 50.7833333333333,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Strzelin",
+        "data": "2021-04-24",
+        "dlugosc": 17.0666666666667,
+        "szerokosc": 50.7833333333333,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8822,6 +10846,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Strzyżów",
+        "data": "2021-04-24",
+        "dlugosc": 21.7833333333333,
+        "szerokosc": 49.8666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Sucha Beskidzka",
         "data": "2021-03-20",
         "dlugosc": 19.4833333333333,
@@ -8838,6 +10873,17 @@ const mapDataPZH = [
         "dlugosc": 19.4833333333333,
         "szerokosc": 49.7333333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Sucha Beskidzka",
+        "data": "2021-04-24",
+        "dlugosc": 19.4833333333333,
+        "szerokosc": 49.7333333333333,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -8899,7 +10945,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Świdnica",
+        "miasto": "Świdnica ",
         "data": "2021-03-20",
         "dlugosc": 16.4833333333333,
         "szerokosc": 50.8333333333333,
@@ -8910,7 +10956,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Świdnica",
+        "miasto": "Świdnica ",
         "data": "2021-03-27",
         "dlugosc": 16.4833333333333,
         "szerokosc": 50.8333333333333,
@@ -8921,7 +10967,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Świdnica",
+        "miasto": "Świdnica ",
         "data": "2021-04-03",
         "dlugosc": 16.4833333333333,
         "szerokosc": 50.8333333333333,
@@ -8932,7 +10978,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Świdnica",
+        "miasto": "Świdnica ",
         "data": "2021-04-10",
         "dlugosc": 16.4833333333333,
         "szerokosc": 50.8333333333333,
@@ -8943,7 +10989,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Świdnica",
+        "miasto": "Świdnica ",
         "data": "2021-04-17",
         "dlugosc": 16.4833333333333,
         "szerokosc": 50.8333333333333,
@@ -9010,6 +11056,17 @@ const mapDataPZH = [
     },
     {
         "miasto": "Świdwin",
+        "data": "2021-04-24",
+        "dlugosc": 15.7833333333333,
+        "szerokosc": 53.7833333333333,
+        "brytyjski": 6,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Świdwin",
         "data": "2021-03-20",
         "dlugosc": 15.7833333333333,
         "szerokosc": 53.7833333333333,
@@ -9097,6 +11154,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Świecie",
+        "data": "2021-04-24",
+        "dlugosc": 18.4333333333333,
+        "szerokosc": 53.4166666666667,
+        "brytyjski": 8,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Świnoujście",
         "data": "2021-04-03",
         "dlugosc": 14.25,
@@ -9112,7 +11180,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 14.25,
         "szerokosc": 53.9166666666667,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9124,6 +11192,17 @@ const mapDataPZH = [
         "dlugosc": 14.25,
         "szerokosc": 53.9166666666667,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Świnoujście",
+        "data": "2021-04-24",
+        "dlugosc": 14.25,
+        "szerokosc": 53.9166666666667,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9175,10 +11254,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Szamotuły",
+        "data": "2021-04-10",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 52.6,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Szamotuły",
         "data": "2021-04-17",
         "dlugosc": 16.5666666666667,
         "szerokosc": 52.6,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Szamotuły",
+        "data": "2021-04-24",
+        "dlugosc": 16.5666666666667,
+        "szerokosc": 52.6,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9222,7 +11323,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 14.5666666666667,
         "szerokosc": 53.4333333333333,
-        "brytyjski": 4,
+        "brytyjski": 15,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9237,6 +11338,17 @@ const mapDataPZH = [
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Szczecin",
+        "data": "2021-04-24",
+        "dlugosc": 14.5666666666667,
+        "szerokosc": 53.4333333333333,
+        "brytyjski": 20,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 9,
         "poludniowoafrykanski": 0
     },
     {
@@ -9266,7 +11378,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 16.6833333333333,
         "szerokosc": 53.7166666666667,
-        "brytyjski": 2,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9284,8 +11396,30 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Szczecinek",
+        "data": "2021-04-24",
+        "dlugosc": 16.6833333333333,
+        "szerokosc": 53.7166666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Szczytno",
         "data": "2021-03-20",
+        "dlugosc": 20.9833333333333,
+        "szerokosc": 53.5666666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Szczytno",
+        "data": "2021-04-24",
         "dlugosc": 20.9833333333333,
         "szerokosc": 53.5666666666667,
         "brytyjski": 1,
@@ -9361,6 +11495,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Tarnobrzeg",
+        "data": "2021-04-24",
+        "dlugosc": 21.6833333333333,
+        "szerokosc": 50.5833333333333,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Tarnów",
         "data": "2021-03-20",
         "dlugosc": 21,
@@ -9420,7 +11565,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 21,
         "szerokosc": 50.0333333333333,
-        "brytyjski": 1,
+        "brytyjski": 60,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9486,7 +11631,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.7166666666667,
         "szerokosc": 54.1,
-        "brytyjski": 7,
+        "brytyjski": 14,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9531,6 +11676,17 @@ const mapDataPZH = [
         "dlugosc": 23.4166666666667,
         "szerokosc": 50.45,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Tomaszów Lub.",
+        "data": "2021-04-24",
+        "dlugosc": 23.4166666666667,
+        "szerokosc": 50.45,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9548,7 +11704,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Tomaszów Mazowiecki",
+        "miasto": "PSSE Tomaszów Mazowiecki",
         "data": "2021-04-10",
         "dlugosc": 20.0333333333333,
         "szerokosc": 51.5333333333333,
@@ -9559,11 +11715,22 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Tomaszów Mazowiecki",
+        "miasto": "PSSE Tomaszów Mazowiecki",
         "data": "2021-04-17",
         "dlugosc": 20.0333333333333,
         "szerokosc": 51.5333333333333,
         "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Tomaszów Mazowiecki",
+        "data": "2021-04-24",
+        "dlugosc": 20.0333333333333,
+        "szerokosc": 51.5333333333333,
+        "brytyjski": 5,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9619,6 +11786,17 @@ const mapDataPZH = [
         "dlugosc": 18.6166666666667,
         "szerokosc": 53.0333333333333,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Toruń",
+        "data": "2021-04-24",
+        "dlugosc": 18.6166666666667,
+        "szerokosc": 53.0333333333333,
+        "brytyjski": 16,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9728,7 +11906,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.85,
         "szerokosc": 53.6,
-        "brytyjski": 1,
+        "brytyjski": 6,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9761,7 +11939,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 18.5,
         "szerokosc": 52.0166666666667,
-        "brytyjski": 1,
+        "brytyjski": 2,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9773,6 +11951,17 @@ const mapDataPZH = [
         "dlugosc": 18.5,
         "szerokosc": 52.0166666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Turek",
+        "data": "2021-04-24",
+        "dlugosc": 18.5,
+        "szerokosc": 52.0166666666667,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9827,7 +12016,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 18.9833333333333,
         "szerokosc": 50.1333333333333,
-        "brytyjski": 3,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9839,6 +12028,17 @@ const mapDataPZH = [
         "dlugosc": 18.9833333333333,
         "szerokosc": 50.1333333333333,
         "brytyjski": 12,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Tychy",
+        "data": "2021-04-24",
+        "dlugosc": 18.9833333333333,
+        "szerokosc": 50.1333333333333,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9889,6 +12089,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Wąbrzeźno",
+        "data": "2021-04-24",
+        "dlugosc": 18.95,
+        "szerokosc": 53.2833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Wadowice",
         "data": "2021-04-10",
         "dlugosc": 19.5,
@@ -9902,6 +12113,17 @@ const mapDataPZH = [
     {
         "miasto": "PSSE Wadowice",
         "data": "2021-04-17",
+        "dlugosc": 19.5,
+        "szerokosc": 49.8833333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Wadowice",
+        "data": "2021-04-24",
         "dlugosc": 19.5,
         "szerokosc": 49.8833333333333,
         "brytyjski": 1,
@@ -9945,10 +12167,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Wągrowiec",
+        "data": "2021-04-10",
+        "dlugosc": 17.2,
+        "szerokosc": 52.8,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Wągrowiec",
         "data": "2021-04-17",
         "dlugosc": 17.2,
         "szerokosc": 52.8,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Wągrowiec",
+        "data": "2021-04-24",
+        "dlugosc": 17.2,
+        "szerokosc": 52.8,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -9982,6 +12226,17 @@ const mapDataPZH = [
         "dlugosc": 16.2833333333333,
         "szerokosc": 50.7833333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Wałbrzych",
+        "data": "2021-04-24",
+        "dlugosc": 16.2833333333333,
+        "szerokosc": 50.7833333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10023,6 +12278,17 @@ const mapDataPZH = [
     {
         "miasto": "Wałcz",
         "data": "2021-04-17",
+        "dlugosc": 16.45,
+        "szerokosc": 53.2666666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Wałcz",
+        "data": "2021-04-24",
         "dlugosc": 16.45,
         "szerokosc": 53.2666666666667,
         "brytyjski": 2,
@@ -10091,10 +12357,32 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 21.0333333333333,
         "szerokosc": 52.2,
-        "brytyjski": 68,
+        "brytyjski": 107,
         "brazylijski": 0,
-        "dziki": 3,
-        "indyjski": 8,
+        "dziki": 2,
+        "indyjski": 9,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Warszawa",
+        "data": "2021-05-01",
+        "dlugosc": 21.0333333333333,
+        "szerokosc": 52.2,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Warszawa",
+        "data": "2021-05-08",
+        "dlugosc": 21.0333333333333,
+        "szerokosc": 52.2,
+        "brytyjski": 13,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
         "poludniowoafrykanski": 0
     },
     {
@@ -10153,6 +12441,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE WĘGORZEWO",
+        "data": "2021-04-24",
+        "dlugosc": 21.75,
+        "szerokosc": 54.2166666666667,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Węgrów",
         "data": "2021-03-27",
         "dlugosc": 22.0166666666667,
@@ -10190,7 +12489,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 22.0166666666667,
         "szerokosc": 52.4,
-        "brytyjski": 2,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10256,11 +12555,11 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 18.25,
         "szerokosc": 54.6,
-        "brytyjski": 13,
+        "brytyjski": 25,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
-        "poludniowoafrykanski": 0
+        "poludniowoafrykanski": 1
     },
     {
         "miasto": "PSSE Wieliczka",
@@ -10318,6 +12617,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Wieliczka",
+        "data": "2021-04-24",
+        "dlugosc": 20.05,
+        "szerokosc": 49.9833333333333,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Wieluń",
         "data": "2021-04-03",
         "dlugosc": 18.5666666666667,
@@ -10340,7 +12650,18 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "PSSE Wieruszów",
+        "miasto": "PSSE Wieluń",
+        "data": "2021-04-24",
+        "dlugosc": 18.5666666666667,
+        "szerokosc": 51.2166666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Wieruszów ",
         "data": "2021-03-20",
         "dlugosc": 18.1666666666667,
         "szerokosc": 51.2833333333333,
@@ -10373,7 +12694,18 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Włodawski",
+        "miasto": "Włocławek",
+        "data": "2021-04-24",
+        "dlugosc": 19.05,
+        "szerokosc": 52.65,
+        "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Włodawa",
         "data": "2021-03-20",
         "dlugosc": 23.55,
         "szerokosc": 51.55,
@@ -10384,7 +12716,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "Włodawski",
+        "miasto": "Włodawa",
         "data": "2021-04-17",
         "dlugosc": 23.55,
         "szerokosc": 51.55,
@@ -10429,10 +12761,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "PSSE Wodzisław Śląski",
+        "data": "2021-04-10",
+        "dlugosc": 18.4666666666667,
+        "szerokosc": 50.0166666666667,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Wodzisław Śląski",
         "data": "2021-04-17",
         "dlugosc": 18.4666666666667,
         "szerokosc": 50.0166666666667,
-        "brytyjski": 2,
+        "brytyjski": 3,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Wodzisław Śląski",
+        "data": "2021-04-24",
+        "dlugosc": 18.4666666666667,
+        "szerokosc": 50.0166666666667,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10517,10 +12871,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Wolsztyn",
+        "data": "2021-04-10",
+        "dlugosc": 16.1166666666667,
+        "szerokosc": 52.1166666666667,
+        "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Wolsztyn",
         "data": "2021-04-17",
         "dlugosc": 16.1166666666667,
         "szerokosc": 52.1166666666667,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Wolsztyn",
+        "data": "2021-04-24",
+        "dlugosc": 16.1166666666667,
+        "szerokosc": 52.1166666666667,
+        "brytyjski": 7,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10586,7 +12962,7 @@ const mapDataPZH = [
         "data": "2021-04-24",
         "dlugosc": 17.0333333333333,
         "szerokosc": 51.1166666666667,
-        "brytyjski": 1,
+        "brytyjski": 40,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10616,10 +12992,32 @@ const mapDataPZH = [
     },
     {
         "miasto": "Września",
+        "data": "2021-04-10",
+        "dlugosc": 17.5833333333333,
+        "szerokosc": 52.3333333333333,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Września",
         "data": "2021-04-17",
         "dlugosc": 17.5833333333333,
         "szerokosc": 52.3333333333333,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Września",
+        "data": "2021-04-24",
+        "dlugosc": 17.5833333333333,
+        "szerokosc": 52.3333333333333,
+        "brytyjski": 1,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10681,6 +13079,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Wysokie Mazowieckie",
+        "data": "2021-04-17",
+        "dlugosc": 22.5,
+        "szerokosc": 52.9166666666667,
+        "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Wyszków",
         "data": "2021-03-20",
         "dlugosc": 21.45,
@@ -10703,7 +13112,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "ZĄBKOWICE ŚL",
+        "miasto": "Ząbkowice Śląskie",
         "data": "2021-03-20",
         "dlugosc": 16.8166666666667,
         "szerokosc": 50.5833333333333,
@@ -10714,7 +13123,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "ZĄBKOWICE ŚL",
+        "miasto": "Ząbkowice Śląskie",
         "data": "2021-03-27",
         "dlugosc": 16.8166666666667,
         "szerokosc": 50.5833333333333,
@@ -10725,7 +13134,7 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
-        "miasto": "ZĄBKOWICE ŚL",
+        "miasto": "Ząbkowice Śląskie",
         "data": "2021-04-10",
         "dlugosc": 16.8166666666667,
         "szerokosc": 50.5833333333333,
@@ -10868,6 +13277,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "Zambrów",
+        "data": "2021-04-17",
+        "dlugosc": 22.25,
+        "szerokosc": 52.9833333333333,
+        "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "Zamość",
         "data": "2021-03-27",
         "dlugosc": 23.2666666666667,
@@ -10906,6 +13326,17 @@ const mapDataPZH = [
         "dlugosc": 23.2666666666667,
         "szerokosc": 50.7166666666667,
         "brytyjski": 4,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Zamość",
+        "data": "2021-04-24",
+        "dlugosc": 23.2666666666667,
+        "szerokosc": 50.7166666666667,
+        "brytyjski": 9,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -10978,6 +13409,17 @@ const mapDataPZH = [
         "poludniowoafrykanski": 0
     },
     {
+        "miasto": "PSSE Zawiercie",
+        "data": "2021-04-24",
+        "dlugosc": 19.4166666666667,
+        "szerokosc": 50.5,
+        "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
         "miasto": "PSSE Zduńska Wola",
         "data": "2021-03-20",
         "dlugosc": 18.9333333333333,
@@ -11005,6 +13447,17 @@ const mapDataPZH = [
         "dlugosc": 18.9333333333333,
         "szerokosc": 51.6,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Zduńska Wola",
+        "data": "2021-04-24",
+        "dlugosc": 18.9333333333333,
+        "szerokosc": 51.6,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -11049,6 +13502,17 @@ const mapDataPZH = [
         "dlugosc": 19.4166666666667,
         "szerokosc": 51.8666666666667,
         "brytyjski": 2,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Zgierz",
+        "data": "2021-04-24",
+        "dlugosc": 19.4166666666667,
+        "szerokosc": 51.8666666666667,
+        "brytyjski": 20,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -11191,7 +13655,7 @@ const mapDataPZH = [
         "data": "2021-04-10",
         "dlugosc": 17.0333333333333,
         "szerokosc": 53.3666666666667,
-        "brytyjski": 1,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -11203,6 +13667,17 @@ const mapDataPZH = [
         "dlugosc": 17.0333333333333,
         "szerokosc": 53.3666666666667,
         "brytyjski": 1,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Złotów",
+        "data": "2021-04-24",
+        "dlugosc": 17.0333333333333,
+        "szerokosc": 53.3666666666667,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -11236,6 +13711,17 @@ const mapDataPZH = [
         "dlugosc": 17.7166666666667,
         "szerokosc": 52.85,
         "brytyjski": 5,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "Żnin",
+        "data": "2021-04-24",
+        "dlugosc": 17.7166666666667,
+        "szerokosc": 52.85,
+        "brytyjski": 4,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
@@ -11301,7 +13787,18 @@ const mapDataPZH = [
         "data": "2021-04-17",
         "dlugosc": 19.2,
         "szerokosc": 49.7,
-        "brytyjski": 8,
+        "brytyjski": 11,
+        "brazylijski": 0,
+        "dziki": 0,
+        "indyjski": 0,
+        "poludniowoafrykanski": 0
+    },
+    {
+        "miasto": "PSSE Żywiec",
+        "data": "2021-04-24",
+        "dlugosc": 19.2,
+        "szerokosc": 49.7,
+        "brytyjski": 3,
         "brazylijski": 0,
         "dziki": 0,
         "indyjski": 0,
