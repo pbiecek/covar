@@ -317,6 +317,7 @@ async function reload() {
         .data(data)
         .enter()
         .append("circle")
+        .style("cursor", "pointer")
         .attr("cx", function(d) {
             return (scaleDlugosc(d.dlugosc));
         })
@@ -332,7 +333,8 @@ async function reload() {
         .on("mouseover", function(d) {      
             divTooltip.transition()        
                 .duration(200)      
-                .style("opacity", .9);      
+                .style("opacity", .9);
+
             divTooltip.html('<svg><rect class="cls-3" x="15" y="0" width="142.84" height="110"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.miasto+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-36" >' + d.brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.poludniowoafrykanski +'</tspan><tspan x="0" y="70.4">P.1 (brazylijski): </tspan><tspan class="cls-36" >' + d.brazylijski +'</tspan><tspan x="0" y="87">Inne: </tspan><tspan class="cls-8">' + d.dziki +'</tspan></text></svg>')
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
@@ -341,6 +343,9 @@ async function reload() {
             divTooltip.transition()        
                 .duration(500)      
                 .style("opacity", 0);   
+        })
+        .on("click", function(d) {
+            window.location.href = 'stations/station.html?psse=' + d.miasto;
         });
     });
 }
