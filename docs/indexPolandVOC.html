@@ -5,9 +5,9 @@
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">  
     <script src="https://d3js.org/d3.v4.min.js"></script>    <link rel="stylesheet" href="styles.css">
     <meta charset="UTF-8">
-    <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="-1">
-    <meta http-equiv="CACHE-CONTROL" content="NO-CACHE">
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='pragma' content='no-cache'>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa RT-COVAR</title>
 <script>
@@ -39,7 +39,8 @@
                         </h3>
                         <ul class="nav-block__menu">
                             <li><a href="indexPolandVOC.html">VOC</a></li>
-                            <li><a href="indexPolandWojewodztwa.html">Województwa</a></li>
+                        <li><a href="indexPolandWojewodztwa2.html">Województwa</a></li>
+                        <li><a href="indexPolandWojewodztwa.html">Trendy</a></li>
                             <li><a href="indexPolandWiek.html">Wiek</a></li>
                             <li><a href="indexPolandMutacje.html">Mutacje</a></li>
                         </ul>
@@ -52,7 +53,6 @@
                             <li><a href="indexEuropeVOHC.html">VOHC</a></li>
                             <li><a href="indexEuropeVOC.html">VOC</a></li>
                             <li><a href="indexEuropeVOI.html">VOI</a></li>
-                            <li><a href="indexEuropeVUM.html">VUM</a></li>
                         </ul>
                     </div>
                     <div class="nav-block">
@@ -106,32 +106,32 @@
                                     <div class="help-mark">
                                         i
                                         <div class="help-mark__popup">
-                                            Help help help
+                                            Zaznacz warianty do prezentacji na mapie.
                                         </div>
                                     </div>
                                 </h5>
                                 <ul class="filter-block__list">
                                     <li>
-                                        <label class="custom-checkbox">Brytyjski
+                                        <label class="custom-checkbox">Alpha (Brytyjski)
                                             <input type="checkbox" checked onchange="filtersHandle('brytyjski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label class="custom-checkbox">Południowoafrykański
+                                        <label class="custom-checkbox">Beta (Południowoafrykański)
                                             <input type="checkbox" checked onchange="filtersHandle('poludniowoafrykanski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label class="custom-checkbox">Indyjski
-                                            <input type="checkbox" checked onchange="filtersHandle('indyjski')">
+                                        <label class="custom-checkbox">Gamma (Brazylijski)
+                                            <input type="checkbox" checked onchange="filtersHandle('brazylijski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label class="custom-checkbox">Brazylijski
-                                            <input type="checkbox" checked onchange="filtersHandle('brazylijski')">
+                                        <label class="custom-checkbox">Delta (Indyjski)
+                                            <input type="checkbox" checked onchange="filtersHandle('indyjski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
@@ -157,7 +157,7 @@
                     Zmiana sytuacji w czasie<div class="help-mark">
                         i
                         <div class="help-mark__popup">
-                            Help help help
+                            Zaznacz okres do zaprezentowania na mapie, od wskazanego do dnia dzisiejszego.
                         </div>
                     </div>
                 </h4>
@@ -171,13 +171,13 @@
             </div>
         </main>
 </body>
-<script src="scripts/pzh.js"></script>
-<script src="scripts/gisaid.js"></script>
+<script src="scripts/pzh.js?version=2"></script>
+<script src="scripts/gisaid.js?version=2"></script>
 <script>
 
 let acitveFilters = ['brytyjski', 'poludniowoafrykanski', 'indyjski', 'brazylijski', 'dziki'];
 
-const currentDate = new Date('2021-04-20');
+const currentDate = new Date('2021-05-08');
 const firstDay = new Date(currentDate.setDate(currentDate.getDate() - currentDate.getDay()));
 const ranges = [
     {
@@ -333,9 +333,8 @@ async function reload() {
         .on("mouseover", function(d) {      
             divTooltip.transition()        
                 .duration(200)      
-                .style("opacity", .9);
-
-            divTooltip.html('<svg><rect class="cls-3" x="15" y="0" width="142.84" height="110"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.miasto+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-36" >' + d.brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.poludniowoafrykanski +'</tspan><tspan x="0" y="70.4">P.1 (brazylijski): </tspan><tspan class="cls-36" >' + d.brazylijski +'</tspan><tspan x="0" y="87">Inne: </tspan><tspan class="cls-8">' + d.dziki +'</tspan></text></svg>')
+                .style("opacity", .9);      
+            divTooltip.html('<svg><rect class="cls-3" x="15" y="0" width="142.84" height="110"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/><text class="cls-27"  transform="translate(25 15)">'+d.miasto+'<tspan x="0" y="17.8">Alpha (brytyjski): </tspan><tspan class="cls-36" >' + d.brytyjski +'</tspan><tspan x="0" y="35.6">Beta (afrykański): </tspan><tspan class="cls-36" >' + d.poludniowoafrykanski +'</tspan><tspan x="0" y="53.4">Gamma (brazylijski): </tspan><tspan class="cls-36" >' + d.brazylijski +'</tspan><tspan x="0" y="70.4">Delta (indyjski): </tspan><tspan class="cls-36" >' + d.indyjski +'</tspan><tspan x="0" y="87">Inne: </tspan><tspan class="cls-8">' + d.dziki +'</tspan></text></svg>')
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
