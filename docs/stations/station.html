@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="https://unpkg.com/ag-grid-community/dist/ag-grid-community.min.js"></script>
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-grid.css">
+    <link rel="stylesheet" href="https://unpkg.com/ag-grid-community/dist/styles/ag-theme-alpine.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa RT-COVAR</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5650686-7', 'biecek.pl');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="header-block">
+                <h1>
+                    Mapa RT<span class="text-orange">-</span>COVAR
+                </h1>
+                <h2>
+                    monitor wariantów i mutacji SARS-COV-2
+                </h2>
+            </div>
+            <nav>
+                <div class="nav-block">
+                    <h3 class="nav-block__title nav-block__title--bold">Warianty w Polsce
+
+                    </h3>
+                    <ul class="nav-block__menu">
+                        <li><a href="../indexPolandVOC.html">VOC</a></li>
+                        <li><a href="../indexPolandWojewodztwa.html">Województwa</a></li>
+                        <li><a href="../indexPolandWiek.html">Wiek</a></li>
+                        <li><a href="../indexPolandMutacje.html">Mutacje</a></li>
+                    </ul>
+                </div>
+                <div class="nav-block">
+                    <h3 class="nav-block__title nav-block__title--bold">Warianty w Europie
+
+                    </h3>
+                    <ul class="nav-block__menu">
+                        <li><a href="../indexEuropeVOHC.html">VOHC</a></li>
+                        <li><a href="../indexEuropeVOC.html">VOC</a></li>
+                        <li><a href="../indexEuropeVOI.html">VOI</a></li>
+                        <li><a href="../indexEuropeVUM.html">VUM</a></li>
+                    </ul>
+                </div>
+                <div class="nav-block">
+                    <h3 class="nav-block__title nav-block__title--bold">Specjlistyczne raporty</h3>
+                    <ul class="nav-block__menu">
+                        <li><a href="../indexKoinf.html">Koinfekcje</a></li>
+                        <li><a href="../indexWykryc.html">Wykrycia zagraniczne</a></li>
+                    </ul>
+                </div>
+                <div class="nav-block">
+                    <h3 class="nav-block__title nav-block__title--bold"><a>O Mapie</a></h3>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div>
+            <div class="map-view__header">
+                <div class="map-view__title-section">
+                    <h2 class="map-view__title">Dane dla stacji <span id="station-name"></span></h2>
+                </div>
+            </div>
+            <div class="map-view__content centering-container">
+                 <div id="stations-grid" class="ag-theme-alpine" style="width:810px; max-width: 100%"></div>
+            </div>
+        </div>
+        <div class="map-view__footer">
+            <h4 class="map-view__footer-title">
+                Zmiana sytuacji w czasie<div class="help-mark">
+                    i
+                    <div class="help-mark__popup">
+                        Help help help
+                    </div>
+                </div>
+            </h4>
+            <div class="timeline">
+                <div id="slider" class="timeline__line">
+                </div>
+            </div>
+            <h4 class="map-view__footer-title" style="background: #ffffff">
+                <center><img width="800px" src="../images/logo.png"></center>
+            </h4>
+        </div>
+    </main>
+</body>
+<script>
+    const columns = [
+        { field: 'region', sortable: true },
+        { field: 'date', sortable: true },
+        { field: 'srwe', sortable: true, filter: true },
+        { field: 'variant', sortable: true, filter: true },
+    ];
+
+    let data = [];
+    let gridInstance = null;
+    let gridOptions = null;
+    const currentDate = new Date('2021-04-20');
+        const firstDay = new Date(currentDate.setDate(currentDate.getDate() - currentDate.getDay()));
+        const ranges = [
+            {
+                label: 'w tym tygodniu',
+                value: firstDay.getTime()
+            },
+            {
+                label: 'ostatnie 2 tygodnie',
+                value: firstDay.getTime() - (1000 * 60 * 60 * 24 * 7)
+            },
+            {
+                label: 'ostatnie 3 tygodnie',
+                value: firstDay.getTime() - (1000 * 60 * 60 * 24 * 7 * 2)
+            },
+            {
+                label: 'ostatni miesiąc',
+                value: firstDay.getTime() - (1000 * 60 * 60 * 24 * 7 * 3)
+            },
+            {
+            label: 'cały okres',
+            value: 0
+        }
+    ];
+    let selectedRangeId = 0;
+
+    function buildMarker(obj, ind, id) {
+        const base = document.createElement('div');
+        base.classList.add('timeline__marker');
+        const date = document.createElement('span');
+        date.classList.add('timeline__date');
+        date.innerHTML = obj.label;
+        if (ind === selectedRangeId) {
+            base.classList.add('timeline__marker--active');
+        }
+        base.addEventListener('click', e => {
+            e.stopPropagation();
+            for (let mark of document.getElementById(id).children) {
+                mark.classList.remove('timeline__marker--active');
+            }
+            base.classList.add('timeline__marker--active');
+            selectedRangeId = ind;
+            reload();
+        });
+        base.appendChild(date);
+        document.getElementById(id).prepend(base);
+    }
+
+    ranges.forEach((obj, i) => buildMarker(obj, i, 'slider'));
+
+    async function reload() {
+        const timespan = ranges[selectedRangeId].value;
+        const filteredData = data.filter(current => (new Date(current.date)).getTime() > timespan);
+
+        gridOptions = {
+          columnDefs: columns,
+          rowData: filteredData,
+          pagination: true,
+          paginationPageSize: 10,
+        };
+        const eGridDiv = document.getElementById('stations-grid');
+        eGridDiv.innerHTML = '';
+        gridInstance = new agGrid.Grid(eGridDiv, gridOptions);
+        gridOptions.api.setDomLayout('autoHeight');
+    }
+
+    async function init() {
+        const urlParams = new URLSearchParams(window.location.search);
+        const station = urlParams.get('psse');
+        document.getElementById('station-name').innerHTML = station;
+        const index = await (fetch('data/$index.json').then(res => res.json()));
+        const lookup = index[station];
+        const rawData = await (fetch(lookup).then(res => res.json()));
+        data = rawData.filter(entry => entry.psse === station);
+        await reload();
+    }
+
+    init();
+</script>
+</html>

@@ -317,6 +317,7 @@ async function reload() {
         .data(data)
         .enter()
         .append("circle")
+        .style("cursor", "pointer")
         .attr("cx", function(d) {
             return (scaleDlugosc(d.dlugosc));
         })
@@ -341,6 +342,9 @@ async function reload() {
             divTooltip.transition()        
                 .duration(500)      
                 .style("opacity", 0);   
+        })
+        .on("click", function(d) {
+            window.location.href = 'stations/station.html?psse=' + d.miasto;
         });
     });
 }
