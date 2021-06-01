@@ -53,7 +53,6 @@
                             <li><a href="indexEuropeVOHC.html">VOHC</a></li>
                             <li><a href="indexEuropeVOC.html">VOC</a></li>
                             <li><a href="indexEuropeVOI.html">VOI</a></li>
-                            <li><a href="indexEuropeVUM.html">VUM</a></li>
                         </ul>
                     </div>
                     <div class="nav-block">
@@ -113,26 +112,26 @@
                                 </h5>
                                 <ul class="filter-block__list">
                                     <li>
-                                        <label class="custom-checkbox">Brytyjski
+                                        <label class="custom-checkbox">Alpha (Brytyjski)
                                             <input type="checkbox" checked onchange="filtersHandle('brytyjski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label class="custom-checkbox">Południowoafrykański
+                                        <label class="custom-checkbox">Beta (Południowoafrykański)
                                             <input type="checkbox" checked onchange="filtersHandle('poludniowoafrykanski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label class="custom-checkbox">Indyjski
-                                            <input type="checkbox" checked onchange="filtersHandle('indyjski')">
+                                        <label class="custom-checkbox">Gamma (Brazylijski)
+                                            <input type="checkbox" checked onchange="filtersHandle('brazylijski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
                                     <li>
-                                        <label class="custom-checkbox">Brazylijski
-                                            <input type="checkbox" checked onchange="filtersHandle('brazylijski')">
+                                        <label class="custom-checkbox">Delta (Indyjski)
+                                            <input type="checkbox" checked onchange="filtersHandle('indyjski')">
                                             <span class="custom-checkbox__checkmark"></span>
                                         </label>
                                     </li>
@@ -334,7 +333,7 @@ async function reload() {
             divTooltip.transition()        
                 .duration(200)      
                 .style("opacity", .9);      
-            divTooltip.html('<svg><rect class="cls-3" x="15" y="0" width="142.84" height="110"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.miasto+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-36" >' + d.brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.poludniowoafrykanski +'</tspan><tspan x="0" y="70.4">P.1 (brazylijski): </tspan><tspan class="cls-36" >' + d.brazylijski +'</tspan><tspan x="0" y="87">Inne: </tspan><tspan class="cls-8">' + d.dziki +'</tspan></text></svg>')
+            divTooltip.html('<svg><rect class="cls-3" x="15" y="0" width="142.84" height="110"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/><text class="cls-27"  transform="translate(25 15)">'+d.miasto+'<tspan x="0" y="17.8">Alpha (brytyjski): </tspan><tspan class="cls-36" >' + d.brytyjski +'</tspan><tspan x="0" y="35.6">Beta (afrykański): </tspan><tspan class="cls-36" >' + d.poludniowoafrykanski +'</tspan><tspan x="0" y="53.4">Gamma (brazylijski): </tspan><tspan class="cls-36" >' + d.brazylijski +'</tspan><tspan x="0" y="70.4">Delta (indyjski): </tspan><tspan class="cls-36" >' + d.indyjski +'</tspan><tspan x="0" y="87">Inne: </tspan><tspan class="cls-8">' + d.dziki +'</tspan></text></svg>')
                 .style("left", (d3.event.pageX) + "px")     
                 .style("top", (d3.event.pageY - 28) + "px");    
             })                  
