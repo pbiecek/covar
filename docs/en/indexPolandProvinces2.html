@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">  
+    <script src="https://d3js.org/d3.v4.min.js"></script>    <link rel="stylesheet" href="../styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT-COVAR Map</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5650686-7', 'biecek.pl');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<header>
+    <div class="nav-container">
+        <div class="header-block">
+            <h1>
+                RT<span class="text-orange">-</span>COVAR Map
+            </h1>
+            <h2>
+                monitor of SARS-COV-2 variants and mutations
+            </h2>
+        </div>
+        <nav>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Variants and mutations
+
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexPolandVOC.html">VOC</a></li>
+                    <li><a href="indexPolandProvinces2.html">Provinces</a></li>
+                    <li><a href="indexPolandProvinces.html">Trends</a></li>
+                    <li><a href="indexPolandAge.html">Age</a></li>
+                    <li><a href="indexPolandMutations.html">Mutations</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Variants in Europe
+
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexEuropeVOHC.html">VOHC</a></li>
+                    <li><a href="indexEuropeVOC.html">VOC</a></li>
+                    <li><a href="indexEuropeVOI.html">VOI</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Specialized reports</h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexCoinf.html">Co-infections</a></li>
+                    <li><a href="indexDetections.html">Foreign detections</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold"><a>About map</a></h3>
+            </div>
+        </nav>
+    </div>
+</header>
+    <main>
+        <div>
+            <div class="map-view__header">
+                <div class="map-view__title-section">
+                    <h2 class="map-view__title">Share of each SARS-COV-2 variant in the provinces</h2>
+                </div>
+            </div>
+            <div class="map-view__content">
+                <div class="map-view__filters" style="width:600!important">
+<br/>
+<p >Total number of sequences along with the percentage for the whole Poland.</p>
+<center><img width=240 src="grafika/wojewodztwa_all1.svg"><img width=360 src="grafika/wojewodztwa_all2.svg"></center>
+<p >Number of sequences per week by variant type by province. Marked date is the date the sample was obtained for analysis.</p>
+<center><img width=640 src="grafika/wojewodztwa_licz.svg"></center>
+<p >Percentage of sequences per week by variant type by province. Marked date is the date the sample was obtained for analysis.</p>
+<center><img width=640 src="grafika/wojewodztwa_proc.svg"></center>
+
+                </div>
+                <div class="map-view__map"  style="padding-left:50px; padding-top: 0px">
+
+                </div>
+            </div>
+        </div>
+        <div class="map-view__footer">
+            <h4 class="map-view__footer-title" style="background: #ffffff">
+                <center><img width="800px" src="../images/logo.png"></center>
+            </h4>
+        </div>
+    </main>
+</body>
+
+</html>

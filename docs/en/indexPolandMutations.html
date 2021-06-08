@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">  
+    <script src="https://d3js.org/d3.v4.min.js"></script>    <link rel="stylesheet" href="../styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RT-COVAR Map</title>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-5650686-7', 'biecek.pl');
+  ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+<header>
+    <div class="nav-container">
+        <div class="header-block">
+            <h1>
+                RT<span class="text-orange">-</span>COVAR Map
+            </h1>
+            <h2>
+                monitor of SARS-COV-2 variants and mutations
+            </h2>
+        </div>
+        <nav>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Variants and mutations
+
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexPolandVOC.html">VOC</a></li>
+                    <li><a href="indexPolandProvinces2.html">Provinces</a></li>
+                    <li><a href="indexPolandProvinces.html">Trends</a></li>
+                    <li><a href="indexPolandAge.html">Age</a></li>
+                    <li><a href="indexPolandMutations.html">Mutations</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Variants in Europe
+
+                </h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexEuropeVOHC.html">VOHC</a></li>
+                    <li><a href="indexEuropeVOC.html">VOC</a></li>
+                    <li><a href="indexEuropeVOI.html">VOI</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold">Specialized reports</h3>
+                <ul class="nav-block__menu">
+                    <li><a href="indexCoinf.html">Co-infections</a></li>
+                    <li><a href="indexDetections.html">Foreign detections</a></li>
+                </ul>
+            </div>
+            <div class="nav-block">
+                <h3 class="nav-block__title nav-block__title--bold"><a>About map</a></h3>
+            </div>
+        </nav>
+    </div>
+</header>
+    <main>
+        <div>
+            <div class="map-view__header">
+                <div class="map-view__title-section">
+                    <h2 class="map-view__title">Frequency of each mutation</h2>
+                </div>
+            </div>
+            <div class="map-view__content">
+                <div class="map-view__filters" style="width:600px">
+<br/>
+<p >Mutations of particular interest are substitutions in the Spike protein. The chart below shows trends in the frequency of each mutation in April.</p>
+<img width=900 src="grafika/mutacje_S1.png">
+
+                </div>
+                <div class="map-view__map"  style="padding-left:50px; padding-top: 0px">
+
+                </div>
+            </div>
+        </div>
+        <div class="map-view__footer">
+            <h4 class="map-view__footer-title">
+                Situation over time<div class="help-mark">
+                    i
+                    <div class="help-mark__popup">
+                        Help help help
+                    </div>
+                </div>
+            </h4>
+            <div class="timeline">
+                <div class="timeline__line">
+                    <div class="timeline__marker">
+
+                    </div>
+                    <span class=timline__date>
+                        15 maja
+                    </span>
+                </div>
+            </div>
+            <h4 class="map-view__footer-title" style="background: #ffffff">
+                <center><img width="800px" src="../images/logo.png"></center>
+            </h4>
+        </div>
+    </main>
+</body>
+<script>
+var data = [{"Stacja":"Białystok","StacjaDlugosc":23.167,"StacjaSzerokosc":53.133,"Brytyjski":6,"Afrykanski":0,"Indyjski":0,"Dziki":2,"All":8},{"Stacja":"Brzozów","StacjaDlugosc":22.033,"StacjaSzerokosc":49.7,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Bydgoszcz","StacjaDlugosc":18,"StacjaSzerokosc":53.117,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Bytów","StacjaDlugosc":17.5,"StacjaSzerokosc":54.167,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Chełm","StacjaDlugosc":23.483,"StacjaSzerokosc":51.133,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Chojnice","StacjaDlugosc":17.55,"StacjaSzerokosc":53.7,"Brytyjski":17,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":17},{"Stacja":"Choszczno","StacjaDlugosc":15.4,"StacjaSzerokosc":53.167,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Człuchów","StacjaDlugosc":17.35,"StacjaSzerokosc":53.683,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":4},{"Stacja":"Dębica","StacjaDlugosc":21.417,"StacjaSzerokosc":50.05,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Drezdenko","StacjaDlugosc":15.817,"StacjaSzerokosc":52.85,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":3},{"Stacja":"Dzierżoniów","StacjaDlugosc":16.633,"StacjaSzerokosc":50.717,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":4},{"Stacja":"Gdańsk","StacjaDlugosc":18.633,"StacjaSzerokosc":54.367,"Brytyjski":50,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":50},{"Stacja":"Gdynia","StacjaDlugosc":18.533,"StacjaSzerokosc":54.533,"Brytyjski":20,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":20},{"Stacja":"Gostyń","StacjaDlugosc":17.017,"StacjaSzerokosc":51.883,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Grajewo","StacjaDlugosc":22.45,"StacjaSzerokosc":53.65,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Grodzisk","StacjaDlugosc":22.75,"StacjaSzerokosc":52.583,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Grudziądz","StacjaDlugosc":18.767,"StacjaSzerokosc":53.483,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Hajnówka","StacjaDlugosc":23.583,"StacjaSzerokosc":52.75,"Brytyjski":6,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":7},{"Stacja":"Jarosław","StacjaDlugosc":22.7,"StacjaSzerokosc":50.033,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"Kartuzy","StacjaDlugosc":18.2,"StacjaSzerokosc":54.333,"Brytyjski":10,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":10},{"Stacja":"Kętrzyn","StacjaDlugosc":21.383,"StacjaSzerokosc":54.083,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Kolbuszowa","StacjaDlugosc":21.783,"StacjaSzerokosc":50.233,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"Kołobrzeg","StacjaDlugosc":15.567,"StacjaSzerokosc":54.167,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Konin","StacjaDlugosc":18.267,"StacjaSzerokosc":52.217,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Kościerzyna","StacjaDlugosc":17.967,"StacjaSzerokosc":54.117,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"Koszalin","StacjaDlugosc":16.183,"StacjaSzerokosc":54.183,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":2,"All":4},{"Stacja":"Krosno Odrzańskie","StacjaDlugosc":15.1,"StacjaSzerokosc":52.033,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Krotoszyn","StacjaDlugosc":17.433,"StacjaSzerokosc":51.683,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Kwidzyn","StacjaDlugosc":18.933,"StacjaSzerokosc":53.733,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"Łańcut","StacjaDlugosc":22.233,"StacjaSzerokosc":50.067,"Brytyjski":6,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":6},{"Stacja":"Lębork","StacjaDlugosc":17.75,"StacjaSzerokosc":54.55,"Brytyjski":3,"Afrykanski":1,"Indyjski":0,"Dziki":0,"All":4},{"Stacja":"Leżajsk","StacjaDlugosc":22.433,"StacjaSzerokosc":50.267,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"Łódź","StacjaDlugosc":19.467,"StacjaSzerokosc":51.783,"Brytyjski":21,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":21},{"Stacja":"Lubin","StacjaDlugosc":16.2,"StacjaSzerokosc":51.4,"Brytyjski":0,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":1},{"Stacja":"Lublin","StacjaDlugosc":22.567,"StacjaSzerokosc":51.233,"Brytyjski":8,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":9},{"Stacja":"Lwówek Śląski","StacjaDlugosc":15.583,"StacjaSzerokosc":51.117,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Międzyrzecz","StacjaDlugosc":15.567,"StacjaSzerokosc":52.517,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"Mielec","StacjaDlugosc":21.433,"StacjaSzerokosc":50.283,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Mońki","StacjaDlugosc":22.8,"StacjaSzerokosc":53.417,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Oława","StacjaDlugosc":17.3,"StacjaSzerokosc":50.95,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":3},{"Stacja":"Olsztyn","StacjaDlugosc":20.5,"StacjaSzerokosc":53.783,"Brytyjski":6,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":6},{"Stacja":"Ostróda","StacjaDlugosc":19.967,"StacjaSzerokosc":53.7,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Piotrków Trybunalski","StacjaDlugosc":19.683,"StacjaSzerokosc":51.4,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Pleszew","StacjaDlugosc":17.783,"StacjaSzerokosc":51.883,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Police","StacjaDlugosc":14.55,"StacjaSzerokosc":53.55,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Pruszcz Gdański","StacjaDlugosc":18.633,"StacjaSzerokosc":54.267,"Brytyjski":9,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":9},{"Stacja":"Przeworsk","StacjaDlugosc":22.483,"StacjaSzerokosc":50.05,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE BARTOSZYCE","StacjaDlugosc":20.8,"StacjaSzerokosc":54.25,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"PSSE Bełchatów","StacjaDlugosc":19.367,"StacjaSzerokosc":51.367,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Bytom","StacjaDlugosc":18.9,"StacjaSzerokosc":50.383,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Dąbrowa Tarnowska","StacjaDlugosc":20.983,"StacjaSzerokosc":50.183,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Działdowo","StacjaDlugosc":20.183,"StacjaSzerokosc":53.233,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Giżycko ","StacjaDlugosc":21.783,"StacjaSzerokosc":54.033,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"PSSE Iława","StacjaDlugosc":19.567,"StacjaSzerokosc":53.6,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Katowice","StacjaDlugosc":19,"StacjaSzerokosc":50.25,"Brytyjski":3,"Afrykanski":0,"Indyjski":4,"Dziki":0,"All":7},{"Stacja":"PSSE Kętrzyn ","StacjaDlugosc":21.383,"StacjaSzerokosc":54.083,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Kraków","StacjaDlugosc":19.95,"StacjaSzerokosc":50.05,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"PSSE Lidzbark Warmiński ","StacjaDlugosc":20.583,"StacjaSzerokosc":54.117,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"PSSE MRĄGOWO","StacjaDlugosc":21.3,"StacjaSzerokosc":53.867,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"PSSE Myślenice","StacjaDlugosc":19.95,"StacjaSzerokosc":49.833,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"PSSE Opole","StacjaDlugosc":17.933,"StacjaSzerokosc":50.667,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"PSSE Ostróda","StacjaDlugosc":19.967,"StacjaSzerokosc":53.7,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Piotrków Trybunalski","StacjaDlugosc":19.683,"StacjaSzerokosc":51.4,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Prudnik","StacjaDlugosc":17.6,"StacjaSzerokosc":50.317,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Racibórz","StacjaDlugosc":18.233,"StacjaSzerokosc":50.083,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Radomsko","StacjaDlugosc":19.45,"StacjaSzerokosc":51.067,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Rybnik","StacjaDlugosc":18.55,"StacjaSzerokosc":50.083,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Strzelce Opolskie","StacjaDlugosc":18.3,"StacjaSzerokosc":50.517,"Brytyjski":6,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":6},{"Stacja":"PSSE Tarnów","StacjaDlugosc":21,"StacjaSzerokosc":50.033,"Brytyjski":13,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":13},{"Stacja":"PSSE Tychy","StacjaDlugosc":18.983,"StacjaSzerokosc":50.133,"Brytyjski":8,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":8},{"Stacja":"PSSE WĘGORZEWO","StacjaDlugosc":21.75,"StacjaSzerokosc":54.217,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Węgorzewo ","StacjaDlugosc":21.75,"StacjaSzerokosc":54.217,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"PSSE Wieluń","StacjaDlugosc":18.567,"StacjaSzerokosc":51.217,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"PSSE Zduńska Wola","StacjaDlugosc":18.933,"StacjaSzerokosc":51.6,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"PSSE Zgierz","StacjaDlugosc":19.417,"StacjaSzerokosc":51.867,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"Puck","StacjaDlugosc":18.4,"StacjaSzerokosc":54.733,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":4},{"Stacja":"Rawicz","StacjaDlugosc":16.867,"StacjaSzerokosc":51.6,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"Ropczyce","StacjaDlugosc":21.617,"StacjaSzerokosc":50.05,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":4},{"Stacja":"Rzeszów","StacjaDlugosc":22.017,"StacjaSzerokosc":50.05,"Brytyjski":7,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":7},{"Stacja":"Siemiatycze","StacjaDlugosc":22.867,"StacjaSzerokosc":52.433,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Słupsk","StacjaDlugosc":17.033,"StacjaSzerokosc":54.467,"Brytyjski":13,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":14},{"Stacja":"Sopot","StacjaDlugosc":18.55,"StacjaSzerokosc":54.433,"Brytyjski":2,"Afrykanski":1,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"Stalowa Wola","StacjaDlugosc":22.083,"StacjaSzerokosc":50.567,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Starogard Gdański","StacjaDlugosc":18.533,"StacjaSzerokosc":53.967,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":5},{"Stacja":"Strzelin","StacjaDlugosc":17.067,"StacjaSzerokosc":50.783,"Brytyjski":12,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":12},{"Stacja":"Strzyżów","StacjaDlugosc":21.783,"StacjaSzerokosc":49.867,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":2},{"Stacja":"Sulęcin","StacjaDlugosc":15.117,"StacjaSzerokosc":52.45,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Świdwin","StacjaDlugosc":15.783,"StacjaSzerokosc":53.783,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Świecie","StacjaDlugosc":18.433,"StacjaSzerokosc":53.417,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Świnoujście","StacjaDlugosc":14.25,"StacjaSzerokosc":53.917,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Szczecin","StacjaDlugosc":14.567,"StacjaSzerokosc":53.433,"Brytyjski":6,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":7},{"Stacja":"Szczecinek","StacjaDlugosc":16.683,"StacjaSzerokosc":53.717,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":4},{"Stacja":"Tarnobrzeg","StacjaDlugosc":21.683,"StacjaSzerokosc":50.583,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Tczew","StacjaDlugosc":18.717,"StacjaSzerokosc":54.1,"Brytyjski":9,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":9},{"Stacja":"Toruń","StacjaDlugosc":18.617,"StacjaSzerokosc":53.033,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Trzebnica","StacjaDlugosc":17.067,"StacjaSzerokosc":51.3,"Brytyjski":5,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":5},{"Stacja":"Tuchola","StacjaDlugosc":17.85,"StacjaSzerokosc":53.6,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Turek","StacjaDlugosc":18.5,"StacjaSzerokosc":52.017,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Wągrowiec","StacjaDlugosc":17.2,"StacjaSzerokosc":52.8,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Wałcz","StacjaDlugosc":16.45,"StacjaSzerokosc":53.267,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Warszawa","StacjaDlugosc":21.033,"StacjaSzerokosc":52.2,"Brytyjski":187,"Afrykanski":0,"Indyjski":1,"Dziki":4,"All":192},{"Stacja":"Wejherowo","StacjaDlugosc":18.25,"StacjaSzerokosc":54.6,"Brytyjski":21,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":22},{"Stacja":"Włocławek","StacjaDlugosc":19.05,"StacjaSzerokosc":52.65,"Brytyjski":4,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Wrocław","StacjaDlugosc":17.033,"StacjaSzerokosc":51.117,"Brytyjski":47,"Afrykanski":0,"Indyjski":0,"Dziki":1,"All":48},{"Stacja":"Wysokie Mazowieckie","StacjaDlugosc":22.5,"StacjaSzerokosc":52.917,"Brytyjski":3,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":3},{"Stacja":"ZĄBKOWICE ŚLąskie","StacjaDlugosc":16.817,"StacjaSzerokosc":50.583,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Zambrów","StacjaDlugosc":22.25,"StacjaSzerokosc":52.983,"Brytyjski":2,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":2},{"Stacja":"Zamość","StacjaDlugosc":23.267,"StacjaSzerokosc":50.717,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1},{"Stacja":"Żnin","StacjaDlugosc":17.717,"StacjaSzerokosc":52.85,"Brytyjski":1,"Afrykanski":0,"Indyjski":0,"Dziki":0,"All":1}] 
+</script>
+
+
+<script>
+var scaleSzerokosc = d3.scaleLinear()
+            .domain([49.10, 54.83])
+            .range([610, 0]);
+
+var scaleDlugosc = d3.scaleLinear()
+            .domain([14.07, 24.09])
+            .range([0, 655]);
+
+var scaleSize = d3.scaleSqrt()
+            .domain([1, 200])
+            .range([2, 30]);
+
+    var divTooltip = d3.select("body").append("div")
+        .attr("class", "tooltipMap")
+        .style("opacity", 0);
+
+    var divTooltip2 = d3.select("body").append("div")
+        .attr("class", "tooltipMap")
+        .style("opacity", 0);
+
+    var svg = d3.select("#mapa-covar")
+
+    svgg = svg.append("g")    
+
+    svgg.selectAll("circle")
+       .data(data)
+       .enter()
+       .append("circle")
+       .attr("cx", function(d) {
+                return (scaleDlugosc(d.StacjaDlugosc));
+       })
+       .attr("cy", function(d) {
+                return (scaleSzerokosc(d.StacjaSzerokosc));
+       })
+       .attr("r", function(d) {
+                return (scaleSize(d.Brytyjski));
+       })
+       .attr("fill", "#ff8f5750")
+       .attr("opacity", 0.7)
+       .attr("stroke", "#ff8f57")
+       .on("mouseover", function(d) {      
+            divTooltip.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            divTooltip.html('<svg> <rect class="cls-3" x="15" y="0" width="142.84" height="91.73"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.Stacja+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-6" > ' + d.Brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.Indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.Afrykanski +'</tspan><tspan x="0" y="70.4">Inne: </tspan><tspan class="cls-8">' + d.Dziki +'</tspan></text></svg>')  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            divTooltip.transition()        
+                .duration(500)      
+                .style("opacity", 0);   
+        });
+
+
+    svggD = svg.append("g")    
+    svggD.selectAll("circle")
+       .data(data)
+       .enter()
+       .append("circle")
+       .attr("cx", function(d) {
+                return (scaleDlugosc(d.StacjaDlugosc));
+       })
+       .attr("cy", function(d) {
+                return (scaleSzerokosc(d.StacjaSzerokosc));
+       })
+       .attr("r", function(d) {
+                return (scaleSize(d.Dziki));
+       })
+       .attr("fill", "#ffca38")
+       .attr("opacity", 0.7)
+       .attr("stroke", "#ffca38")        
+
+    svggI = svg.append("g")    
+    svggI.selectAll("circle")
+       .data(data)
+       .enter()
+       .append("circle")
+       .attr("cx", function(d) {
+                return (scaleDlugosc(d.StacjaDlugosc));
+       })
+       .attr("cy", function(d) {
+                return (scaleSzerokosc(d.StacjaSzerokosc));
+       })
+       .attr("r", function(d) {
+                return (scaleSize(d.Indyjski + d.Afrykanski));
+       })
+       .attr("fill", "#b00064")
+       .attr("opacity", 0.7)
+       .attr("stroke", "#b00064")
+       .on("mouseover", function(d) {      
+            divTooltip2.transition()        
+                .duration(200)      
+                .style("opacity", .9);      
+            divTooltip2.html('<svg> <rect class="cls-3" x="15" y="0" width="142.84" height="91.73"/><rect class="cls-3" x="25" y="0" width="11.38" height="11.38" transform="rotate(45)"/> <text class="cls-27"  transform="translate(25 15)">'+d.Stacja+'<tspan x="0" y="17.8">B.1.1.7. (brytyjski): </tspan><tspan class="cls-6" > ' + d.Brytyjski +'</tspan><tspan x="0" y="35.6">B.1.617.2. (indyjski): </tspan><tspan class="cls-36" >' + d.Indyjski +'</tspan><tspan x="0" y="53.4">B.1.351 (afrykański): </tspan><tspan class="cls-36" >' + d.Afrykanski +'</tspan><tspan x="0" y="70.4">Inne: </tspan><tspan class="cls-8">' + d.Dziki +'</tspan></text></svg>')  
+                .style("left", (d3.event.pageX) + "px")     
+                .style("top", (d3.event.pageY - 28) + "px");    
+            })                  
+        .on("mouseout", function(d) {       
+            divTooltip2.transition()        
+                .duration(500)      
+                .style("opacity", 0);   
+        });
+    </script>
+</html>
